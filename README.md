@@ -2,14 +2,12 @@
 
 ![tests](https://github.com/shivam-agarwala/promptbench/actions/workflows/tests.yml/badge.svg)
 
-Benchmarks five prompting strategies on one classification task: sorting short customer
-support messages into `billing`, `technical`, `account` or `other`.
+Benchmarks five prompting strategies on one classification task: 
+Sorting (short customer support messages) into `billing`, `technical`, `account` or `other`.
 
-The point isn't to produce a ranking. It's to produce a ranking you're allowed to believe,
-and to be loud when you aren't. Most prompt comparisons report two accuracy numbers and
-declare a winner. On 40 examples that's noise, and this repo says so in its own output.
-
-No dependencies. Standard library only.
+The point isn't to produce a ranking. It's to produce a ranking you can believe.
+Most prompt comparisons report two accuracy numbers and declare a winner. 
+On 40 examples that's noise, and this repo says so in its own output.
 
 ## Quickstart
 
@@ -18,7 +16,7 @@ python evaluate.py --dry-run           # mock model, no key, no network, no cost
 python -m unittest test_harness        # 52 tests, all offline
 ```
 
-For real calls, the default provider is a local Ollama, so there is no account or key:
+For real calls, the default provider is a local Ollama :
 
 ```bash
 ollama serve                           # one terminal
@@ -48,8 +46,6 @@ python evaluate.py --provider ollama --model mistral
 python evaluate.py --provider openrouter --model meta-llama/llama-3.3-70b-instruct
 python evaluate.py --provider custom --base-url http://localhost:8000/v1 --model my-model
 ```
-
-The cache key includes the model, so results from different providers don't collide.
 
 ## Files
 
