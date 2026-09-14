@@ -1,6 +1,6 @@
 # promptbench
 
-![tests](https://github.com/YOUR-USERNAME/promptbench/actions/workflows/tests.yml/badge.svg)
+![tests](https://github.com/shivam-agarwala/promptbench/actions/workflows/tests.yml/badge.svg)
 
 Benchmarks five prompting strategies on one classification task: sorting short customer
 support messages into `billing`, `technical`, `account` or `other`.
