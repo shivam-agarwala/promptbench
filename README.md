@@ -85,8 +85,9 @@ format turns out to matter more than the examples themselves.
 ## Reading the output
 
 ```
-rank strategy          acc    95% CI          sd     macroF1  wrong  halluc  malfm  empty
-1    few_shot          0.750  [0.60, 0.86]    0.066  0.836    5      14      8      3
+rank strategy           acc    95% CI         sd     macroF1  mean_ms  out_tok  wrong  halluc  malfm
+1    chain_of_thought   0.950  [0.83, 0.99]   0.000  0.951    1340     6204     6      0       0
+5    few_shot           0.550  [0.40, 0.69]   0.000  0.575    478      2037     27     3       24
 ```
 
 Read it right to left. The failure columns tell you *how* a strategy fails, which is more
@@ -198,7 +199,7 @@ judgement call that flatters `strict_json`. Change a parser and old results stop
 comparable.
 
 **The mock isn't a model.** `--dry-run` is a keyword matcher with seeded failure injection.
-A healthy dry run prints identical rows for all four strategies, because within a run they
+A healthy dry run prints identical rows for all five strategies, because within a run they
 meet the same failures and differ only by parser. Non-flat means a parser diverged, which
 is a finding. Flat means the plumbing works and you've learned nothing about prompting.
 
