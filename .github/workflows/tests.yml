@@ -1,0 +1,25 @@
+name: tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.10", "3.11", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Run tests
+        run: python -m unittest test_harness -v
+      - name: Smoke test the pipeline end to end
+        # The mock client needs no key and makes no network calls, so CI exercises the
+        # whole run loop, the metrics and the CSV writers on every push.
+        run: python evaluate.py --dry-run --repeats 2

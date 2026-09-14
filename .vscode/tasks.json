@@ -1,0 +1,19 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "promptbench: dry run",
+      "type": "shell",
+      "command": "${command:python.interpreterPath} evaluate.py --dry-run",
+      "problemMatcher": [],
+      "group": { "kind": "build", "isDefault": true }
+    },
+    {
+      "label": "promptbench: tests",
+      "type": "shell",
+      "command": "${command:python.interpreterPath} -m unittest test_harness -v",
+      "problemMatcher": [],
+      "group": { "kind": "test", "isDefault": true }
+    }
+  ]
+}

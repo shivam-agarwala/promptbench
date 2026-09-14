@@ -1,0 +1,19 @@
+# Cached responses. Regenerated on demand; may contain prompts and model output.
+.cache/
+
+# Keys for hosted providers. The default provider is local and needs none.
+.env
+.venv/
+venv/
+
+__pycache__/
+*.py[cod]
+
+# Output of the most recent run. The leading slash is required: without it these
+# patterns would also match results/results.csv.
+/results.csv
+/predictions.csv
+/pairwise.csv
+
+.DS_Store
+.idea/

@@ -1,0 +1,49 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Dry run (no API calls, no key)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/evaluate.py",
+      "args": ["--dry-run"],
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "Dry run with repeats",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/evaluate.py",
+      "args": ["--dry-run", "--repeats", "3"],
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "Live run, 8 items (cheap smoke test)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/evaluate.py",
+      "args": ["--limit", "8"],
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "Live run, full",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/evaluate.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "Tests",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "unittest",
+      "args": ["test_harness", "-v"],
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "python.testing.unittestEnabled": true,
+  "python.testing.pytestEnabled": false,
+  "python.testing.unittestArgs": ["-v", "-s", ".", "-p", "test_*.py"],
+  "python.analysis.typeCheckingMode": "basic",
+
+  // evaluate.py reads .env on its own, so this is only here to stop VS Code prompting
+  // about it and to make the key available to anything else run from the terminal.
+  "python.envFile": "${workspaceFolder}/.env",
+  "python.terminal.useEnvFile": true,
+
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/.cache": true
+  }
+}
