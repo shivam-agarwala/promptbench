@@ -1,0 +1,41 @@
+id,message,label
+1,"I was charged twice for my subscription this month, can you refund the extra one?",billing
+2,Why did my invoice go up from 20 to 35 dollars?,billing
+3,The payment failed but the money still left my bank account.,billing
+4,"Do you offer annual pricing, and is there a discount on it?",billing
+5,I cancelled last week but I was still billed today.,billing
+6,Please send me a copy of the receipt for order 4471.,billing
+7,"My card expired, how do I update it before the next charge?",billing
+8,I think I was billed for the wrong plan tier.,billing
+9,Can I get a refund for the two months I never used?,billing
+10,There is a 9.99 charge on my statement that I do not recognise.,billing
+11,The app crashes every time I open the reports tab.,technical
+12,Uploads keep failing with a 500 error.,technical
+13,The dashboard takes almost a minute to load since yesterday.,technical
+14,"Dark mode is broken on Android 14, the text is invisible.",technical
+15,My data is not syncing between my laptop and my phone.,technical
+16,Export to PDF produces a completely blank file.,technical
+17,I keep getting a timeout when I run a large query.,technical
+18,The search bar returns nothing even for exact titles.,technical
+19,Notifications stopped arriving after the last update.,technical
+20,The webhook fires twice for every single event.,technical
+21,I forgot my password and the reset email never arrives.,account
+22,How do I change the email address on my profile?,account
+23,I want to delete my account and everything stored in it.,account
+24,"Two factor authentication is locking me out, my codes are rejected.",account
+25,Can you transfer ownership of the workspace to my colleague?,account
+26,I need to add three teammates to my plan.,account
+27,My username shows as null after I signed in.,account
+28,"I have two accounts by mistake, can you merge them?",account
+29,How do I revoke access for an old device I no longer own?,account
+30,My account was suspended and I do not know why.,account
+31,"Just wanted to say the new release is great, thank you.",other
+32,Do you have an office in Berlin?,other
+33,Are you hiring backend engineers right now?,other
+34,Can I get a sticker pack for my team?,other
+35,Who should I contact about a partnership?,other
+36,Is there an integration with Notion on the roadmap?,other
+37,What are your support hours on weekends?,other
+38,Hello?,other
+39,"I am writing a blog post about you, can I quote your docs?",other
+40,"Thanks for the quick help yesterday, no further questions.",other
