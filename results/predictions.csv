@@ -1,0 +1,934 @@
+run,strategy,item_id,gold,predicted,status,correct,latency_ms,input_tokens,output_tokens,cached,attempts,error,raw_text
+0,zero_shot,1,billing,billing,ok,1,0.0,81,2,1,1,,billing
+0,zero_shot,2,billing,technical,ok,0,0.0,78,2,1,1,,technical
+0,zero_shot,3,billing,other,ok,0,195.7,76,2,0,1,,other
+0,zero_shot,4,billing,account,ok,0,118.0,78,2,0,1,,account
+0,zero_shot,5,billing,technical,ok,0,116.0,75,2,0,1,,technical
+0,zero_shot,6,billing,account,ok,0,117.2,78,2,0,1,,account
+0,zero_shot,7,billing,account,ok,0,118.3,78,2,0,1,,account
+0,zero_shot,8,billing,billing,ok,1,115.3,75,2,0,1,,billing
+0,zero_shot,9,billing,account,ok,0,119.8,77,2,0,1,,account
+0,zero_shot,10,billing,billing,ok,1,112.8,81,2,0,1,,billing
+0,zero_shot,11,technical,technical,ok,1,0.0,75,2,1,1,,technical
+0,zero_shot,12,technical,technical,ok,1,0.0,74,2,1,1,,technical
+0,zero_shot,13,technical,technical,ok,1,116.1,75,2,0,1,,technical
+0,zero_shot,14,technical,technical,ok,1,120.0,78,2,0,1,,technical
+0,zero_shot,15,technical,technical,ok,1,116.7,76,2,0,1,,technical
+0,zero_shot,16,technical,technical,ok,1,116.0,73,2,0,1,,technical
+0,zero_shot,17,technical,technical,ok,1,116.5,76,2,0,1,,technical
+0,zero_shot,18,technical,technical,ok,1,114.6,74,2,0,1,,technical
+0,zero_shot,19,technical,technical,ok,1,114.2,72,2,0,1,,technical
+0,zero_shot,20,technical,technical,ok,1,117.3,73,2,0,1,,technical
+0,zero_shot,21,account,technical,ok,0,0.0,75,2,1,1,,technical
+0,zero_shot,22,account,account,ok,1,0.0,75,2,1,1,,account
+0,zero_shot,23,account,account,ok,1,116.5,76,2,0,1,,account
+0,zero_shot,24,account,technical,ok,0,117.6,77,2,0,1,,technical
+0,zero_shot,25,account,account,ok,1,116.9,75,2,0,1,,account
+0,zero_shot,26,account,account,ok,1,115.9,74,2,0,1,,account
+0,zero_shot,27,account,technical,ok,0,115.8,74,2,0,1,,technical
+0,zero_shot,28,account,account,ok,1,115.8,76,2,0,1,,account
+0,zero_shot,29,account,technical,ok,0,118.0,78,2,0,1,,technical
+0,zero_shot,30,account,account,ok,1,115.9,75,2,0,1,,account
+0,zero_shot,31,other,other,ok,1,0.0,77,2,1,1,,other
+0,zero_shot,32,other,other,ok,1,0.0,72,2,1,1,,other
+0,zero_shot,33,other,other,ok,1,115.8,72,2,0,1,,other
+0,zero_shot,34,other,other,ok,1,115.7,74,2,0,1,,other
+0,zero_shot,35,other,other,ok,1,115.0,72,2,0,1,,other
+0,zero_shot,36,other,other,ok,1,116.1,75,2,0,1,,other
+0,zero_shot,37,other,other,ok,1,115.4,72,2,0,1,,other
+0,zero_shot,38,other,other,ok,1,163.3,66,2,0,1,,other
+0,zero_shot,39,other,other,ok,1,110.8,79,2,0,1,,other
+0,zero_shot,40,other,other,ok,1,115.9,75,2,0,1,,other
+1,zero_shot,1,billing,billing,ok,1,130.5,81,2,0,1,,billing
+1,zero_shot,2,billing,technical,ok,0,125.3,78,2,0,1,,technical
+1,zero_shot,3,billing,other,ok,0,127.1,76,2,0,1,,other
+1,zero_shot,4,billing,account,ok,0,125.6,78,2,0,1,,account
+1,zero_shot,5,billing,technical,ok,0,123.1,75,2,0,1,,technical
+1,zero_shot,6,billing,account,ok,0,125.5,78,2,0,1,,account
+1,zero_shot,7,billing,account,ok,0,125.7,78,2,0,1,,account
+1,zero_shot,8,billing,billing,ok,1,124.2,75,2,0,1,,billing
+1,zero_shot,9,billing,account,ok,0,125.4,77,2,0,1,,account
+1,zero_shot,10,billing,billing,ok,1,119.1,81,2,0,1,,billing
+1,zero_shot,11,technical,technical,ok,1,124.4,75,2,0,1,,technical
+1,zero_shot,12,technical,technical,ok,1,123.4,74,2,0,1,,technical
+1,zero_shot,13,technical,technical,ok,1,125.9,75,2,0,1,,technical
+1,zero_shot,14,technical,technical,ok,1,125.2,78,2,0,1,,technical
+1,zero_shot,15,technical,technical,ok,1,124.9,76,2,0,1,,technical
+1,zero_shot,16,technical,technical,ok,1,123.2,73,2,0,1,,technical
+1,zero_shot,17,technical,technical,ok,1,125.6,76,2,0,1,,technical
+1,zero_shot,18,technical,technical,ok,1,124.4,74,2,0,1,,technical
+1,zero_shot,19,technical,technical,ok,1,124.0,72,2,0,1,,technical
+1,zero_shot,20,technical,technical,ok,1,123.2,73,2,0,1,,technical
+1,zero_shot,21,account,technical,ok,0,124.8,75,2,0,1,,technical
+1,zero_shot,22,account,account,ok,1,123.6,75,2,0,1,,account
+1,zero_shot,23,account,account,ok,1,125.5,76,2,0,1,,account
+1,zero_shot,24,account,technical,ok,0,124.7,77,2,0,1,,technical
+1,zero_shot,25,account,account,ok,1,125.1,75,2,0,1,,account
+1,zero_shot,26,account,account,ok,1,123.2,74,2,0,1,,account
+1,zero_shot,27,account,technical,ok,0,124.3,74,2,0,1,,technical
+1,zero_shot,28,account,account,ok,1,125.1,76,2,0,1,,account
+1,zero_shot,29,account,technical,ok,0,125.4,78,2,0,1,,technical
+1,zero_shot,30,account,account,ok,1,123.8,75,2,0,1,,account
+1,zero_shot,31,other,other,ok,1,125.1,77,2,0,1,,other
+1,zero_shot,32,other,other,ok,1,122.7,72,2,0,1,,other
+1,zero_shot,33,other,other,ok,1,123.9,72,2,0,1,,other
+1,zero_shot,34,other,other,ok,1,124.6,74,2,0,1,,other
+1,zero_shot,35,other,other,ok,1,122.6,72,2,0,1,,other
+1,zero_shot,36,other,other,ok,1,125.0,75,2,0,1,,other
+1,zero_shot,37,other,other,ok,1,123.0,72,2,0,1,,other
+1,zero_shot,38,other,other,ok,1,169.2,66,2,0,1,,other
+1,zero_shot,39,other,other,ok,1,121.0,79,2,0,1,,other
+1,zero_shot,40,other,other,ok,1,124.8,75,2,0,1,,other
+2,zero_shot,1,billing,billing,ok,1,147.4,81,2,0,1,,billing
+2,zero_shot,2,billing,technical,ok,0,153.2,78,2,0,1,,technical
+2,zero_shot,3,billing,other,ok,0,155.5,76,2,0,1,,other
+2,zero_shot,4,billing,account,ok,0,149.3,78,2,0,1,,account
+2,zero_shot,5,billing,technical,ok,0,140.7,75,2,0,1,,technical
+2,zero_shot,6,billing,account,ok,0,133.2,78,2,0,1,,account
+2,zero_shot,7,billing,account,ok,0,132.2,78,2,0,1,,account
+2,zero_shot,8,billing,billing,ok,1,130.8,75,2,0,1,,billing
+2,zero_shot,9,billing,account,ok,0,132.6,77,2,0,1,,account
+2,zero_shot,10,billing,billing,ok,1,129.3,81,2,0,1,,billing
+2,zero_shot,11,technical,technical,ok,1,134.1,75,2,0,1,,technical
+2,zero_shot,12,technical,technical,ok,1,132.3,74,2,0,1,,technical
+2,zero_shot,13,technical,technical,ok,1,132.2,75,2,0,1,,technical
+2,zero_shot,14,technical,technical,ok,1,133.5,78,2,0,1,,technical
+2,zero_shot,15,technical,technical,ok,1,134.0,76,2,0,1,,technical
+2,zero_shot,16,technical,technical,ok,1,137.0,73,2,0,1,,technical
+2,zero_shot,17,technical,technical,ok,1,137.0,76,2,0,1,,technical
+2,zero_shot,18,technical,technical,ok,1,135.1,74,2,0,1,,technical
+2,zero_shot,19,technical,technical,ok,1,133.0,72,2,0,1,,technical
+2,zero_shot,20,technical,technical,ok,1,139.2,73,2,0,1,,technical
+2,zero_shot,21,account,technical,ok,0,142.4,75,2,0,1,,technical
+2,zero_shot,22,account,account,ok,1,140.1,75,2,0,1,,account
+2,zero_shot,23,account,account,ok,1,139.6,76,2,0,1,,account
+2,zero_shot,24,account,technical,ok,0,138.9,77,2,0,1,,technical
+2,zero_shot,25,account,account,ok,1,137.6,75,2,0,1,,account
+2,zero_shot,26,account,account,ok,1,137.1,74,2,0,1,,account
+2,zero_shot,27,account,technical,ok,0,139.0,74,2,0,1,,technical
+2,zero_shot,28,account,account,ok,1,138.6,76,2,0,1,,account
+2,zero_shot,29,account,technical,ok,0,140.1,78,2,0,1,,technical
+2,zero_shot,30,account,account,ok,1,137.7,75,2,0,1,,account
+2,zero_shot,31,other,other,ok,1,139.0,77,2,0,1,,other
+2,zero_shot,32,other,other,ok,1,137.8,72,2,0,1,,other
+2,zero_shot,33,other,other,ok,1,136.8,72,2,0,1,,other
+2,zero_shot,34,other,other,ok,1,139.2,74,2,0,1,,other
+2,zero_shot,35,other,other,ok,1,137.5,72,2,0,1,,other
+2,zero_shot,36,other,other,ok,1,138.7,75,2,0,1,,other
+2,zero_shot,37,other,other,ok,1,137.0,72,2,0,1,,other
+2,zero_shot,38,other,other,ok,1,193.4,66,2,0,1,,other
+2,zero_shot,39,other,other,ok,1,133.2,79,2,0,1,,other
+2,zero_shot,40,other,other,ok,1,136.6,75,2,0,1,,other
+0,few_shot,1,billing,billing,ok,1,0.0,120,15,1,1,,"Message: My renewal charged me before the trial ended.
+Category: billing"
+0,few_shot,2,billing,"i would classify the message ""why did my invoice go up from 20 to 35 dollars?"" as:",malformed,0,0.0,117,22,1,1,,"I would classify the message ""Why did my invoice go up from 20 to 35 dollars?"" as:"
+0,few_shot,3,billing,billing,ok,1,403.1,115,15,0,1,,"Message: My renewal charged me before the trial ended.
+Category: billing"
+0,few_shot,4,billing,billing,ok,1,507.9,117,20,0,1,,"Message: Do you offer annual pricing, and is there a discount on it?
+Category: billing"
+0,few_shot,5,billing,billing,ok,1,423.3,114,15,0,1,,"Message: My renewal charged me before the trial ended.
+Category: billing"
+0,few_shot,6,billing,billing,ok,1,511.8,117,20,0,1,,"Message: Please send me a copy of the receipt for order 4471.
+Category: billing"
+0,few_shot,7,billing,i'd be happy to help classify the support messages,malformed,0,311.9,117,11,0,1,,I'd be happy to help classify the support messages.
+0,few_shot,8,billing,"i would classify the message: ""i think i was billed for the wrong plan tier."" into the category: billing",malformed,0,622.8,114,25,0,1,,"I would classify the message: ""I think I was billed for the wrong plan tier."" into the category: billing."
+0,few_shot,9,billing,billing,ok,1,485.5,116,19,0,1,,"Message: Can I get a refund for the two months I never used?
+Category: billing"
+0,few_shot,10,billing,billing,ok,1,578.6,120,23,0,1,,"Message: There is a 9.99 charge on my statement that I do not recognise.
+Category: billing"
+0,few_shot,11,technical,technical,ok,1,0.0,114,17,1,1,,"Message: The app crashes every time I open the reports tab.
+Category: technical"
+0,few_shot,12,technical,technical,ok,1,0.0,113,16,1,1,,"Message: Uploads keep failing with a 500 error.
+Category: technical"
+0,few_shot,13,technical,technical,ok,1,448.5,114,17,0,1,,"Message: The dashboard takes almost a minute to load since yesterday.
+Category: technical"
+0,few_shot,14,technical,technical,ok,1,511.9,117,20,0,1,,"Message: Dark mode is broken on Android 14, the text is invisible.
+Category: technical"
+0,few_shot,15,technical,billing,ok,0,405.8,115,15,0,1,,"Message: My renewal charged me before the trial ended.
+Category: billing"
+0,few_shot,16,technical,technical,ok,1,403.5,112,15,0,1,,"Message: Export to PDF produces a completely blank file.
+Category: technical"
+0,few_shot,17,technical,i'd be happy to help classify the support messages,malformed,0,323.0,115,11,0,1,,I'd be happy to help classify the support messages.
+0,few_shot,18,technical,technical,ok,1,427.8,113,16,0,1,,"Message: The search bar returns nothing even for exact titles.
+Category: technical"
+0,few_shot,19,technical,technical,ok,1,385.5,111,14,0,1,,"Message: Notifications stopped arriving after the last update.
+Category: technical"
+0,few_shot,20,technical,technical,ok,1,404.9,112,15,0,1,,"Message: The webhook fires twice for every single event.
+Category: technical"
+0,few_shot,21,account,billing,ok,0,0.0,114,17,1,1,,"Message: I forgot my password and the reset email never arrives.
+Category: billing"
+0,few_shot,22,account,billing,ok,0,0.0,114,15,1,1,,"Message: My renewal charged me before the trial ended.
+Category: billing"
+0,few_shot,23,account,other,ok,0,472.1,115,18,0,1,,"Message: I want to delete my account and everything stored in it.
+Category: other"
+0,few_shot,24,account,technical,ok,0,487.8,116,19,0,1,,"Message: Two factor authentication is locking me out, my codes are rejected.
+Category: technical"
+0,few_shot,25,account,other,ok,0,449.6,114,17,0,1,,"Message: Can you transfer ownership of the workspace to my colleague?
+Category: other"
+0,few_shot,26,account,billing,ok,0,428.5,113,16,0,1,,"Message: I need to add three teammates to my plan.
+Category: billing"
+0,few_shot,27,account,"i would classify the message: ""my username shows as null after i signed in."" as: technical",malformed,0,547.8,113,21,0,1,,"I would classify the message: ""My username shows as null after I signed in."" as: technical"
+0,few_shot,28,account,account,ok,1,481.9,115,18,0,1,,"Message: I have two accounts by mistake, can you merge them?
+Category: account"
+0,few_shot,29,account,"i would classify the message: ""how do i revoke access for an old device i no longer own?"" as ""other"". this message seems to be related to",malformed,0,769.4,117,32,0,1,,"I would classify the message: ""How do I revoke access for an old device I no longer own?"" as ""other"". This message seems to be related to"
+0,few_shot,30,account,billing,ok,0,405.6,114,15,0,1,,"Message: My renewal charged me before the trial ended.
+Category: billing"
+0,few_shot,31,other,other,ok,1,0.0,116,19,1,1,,"Message: Just wanted to say the new release is great, thank you.
+Category: other"
+0,few_shot,32,other,other,ok,1,0.0,111,14,1,1,,"Message: Do you have an office in Berlin?
+Category: other"
+0,few_shot,33,other,other,ok,1,382.6,111,14,0,1,,"Message: Are you hiring backend engineers right now?
+Category: other"
+0,few_shot,34,other,other,ok,1,427.1,113,16,0,1,,"Message: Can I get a sticker pack for my team?
+Category: other"
+0,few_shot,35,other,"i would classify the message ""who should i contact about a partnership?"" as ""other"". this message does not seem to be related to a specific issue with a",malformed,0,771.5,111,32,0,1,,"I would classify the message ""Who should I contact about a partnership?"" as ""other"". This message does not seem to be related to a specific issue with a"
+0,few_shot,36,other,other,ok,1,447.4,114,17,0,1,,"Message: Is there an integration with Notion on the roadmap?
+Category: other"
+0,few_shot,37,other,other,ok,1,382.2,111,14,0,1,,"Message: What are your support hours on weekends?
+Category: other"
+0,few_shot,38,other,message: hello?,hallucinated,0,166.1,105,4,0,1,,Message: Hello?
+0,few_shot,39,other,billing,ok,0,400.8,118,15,0,1,,"Message: My renewal charged me before the trial ended.
+Category: billing"
+0,few_shot,40,other,here are the classifications:,malformed,0,189.1,114,5,0,1,,Here are the classifications:
+1,few_shot,1,billing,billing,ok,1,411.4,120,15,0,1,,"Message: My renewal charged me before the trial ended.
+Category: billing"
+1,few_shot,2,billing,"i would classify the message ""why did my invoice go up from 20 to 35 dollars?"" as:",malformed,0,562.9,117,22,0,1,,"I would classify the message ""Why did my invoice go up from 20 to 35 dollars?"" as:"
+1,few_shot,3,billing,billing,ok,1,404.9,115,15,0,1,,"Message: My renewal charged me before the trial ended.
+Category: billing"
+1,few_shot,4,billing,billing,ok,1,506.9,117,20,0,1,,"Message: Do you offer annual pricing, and is there a discount on it?
+Category: billing"
+1,few_shot,5,billing,billing,ok,1,403.9,114,15,0,1,,"Message: My renewal charged me before the trial ended.
+Category: billing"
+1,few_shot,6,billing,billing,ok,1,506.8,117,20,0,1,,"Message: Please send me a copy of the receipt for order 4471.
+Category: billing"
+1,few_shot,7,billing,i'd be happy to help classify the support messages,malformed,0,318.9,117,11,0,1,,I'd be happy to help classify the support messages.
+1,few_shot,8,billing,"i would classify the message: ""i think i was billed for the wrong plan tier."" into the category: billing",malformed,0,619.7,114,25,0,1,,"I would classify the message: ""I think I was billed for the wrong plan tier."" into the category: billing."
+1,few_shot,9,billing,billing,ok,1,486.0,116,19,0,1,,"Message: Can I get a refund for the two months I never used?
+Category: billing"
+1,few_shot,10,billing,billing,ok,1,572.2,120,23,0,1,,"Message: There is a 9.99 charge on my statement that I do not recognise.
+Category: billing"
+1,few_shot,11,technical,technical,ok,1,460.8,114,17,0,1,,"Message: The app crashes every time I open the reports tab.
+Category: technical"
+1,few_shot,12,technical,technical,ok,1,424.1,113,16,0,1,,"Message: Uploads keep failing with a 500 error.
+Category: technical"
+1,few_shot,13,technical,technical,ok,1,448.3,114,17,0,1,,"Message: The dashboard takes almost a minute to load since yesterday.
+Category: technical"
+1,few_shot,14,technical,technical,ok,1,508.4,117,20,0,1,,"Message: Dark mode is broken on Android 14, the text is invisible.
+Category: technical"
+1,few_shot,15,technical,billing,ok,0,406.3,115,15,0,1,,"Message: My renewal charged me before the trial ended.
+Category: billing"
+1,few_shot,16,technical,technical,ok,1,404.0,112,15,0,1,,"Message: Export to PDF produces a completely blank file.
+Category: technical"
+1,few_shot,17,technical,i'd be happy to help classify the support messages,malformed,0,321.2,115,11,0,1,,I'd be happy to help classify the support messages.
+1,few_shot,18,technical,technical,ok,1,427.7,113,16,0,1,,"Message: The search bar returns nothing even for exact titles.
+Category: technical"
+1,few_shot,19,technical,technical,ok,1,382.2,111,14,0,1,,"Message: Notifications stopped arriving after the last update.
+Category: technical"
+1,few_shot,20,technical,technical,ok,1,405.7,112,15,0,1,,"Message: The webhook fires twice for every single event.
+Category: technical"
+1,few_shot,21,account,billing,ok,0,450.1,114,17,0,1,,"Message: I forgot my password and the reset email never arrives.
+Category: billing"
+1,few_shot,22,account,billing,ok,0,406.7,114,15,0,1,,"Message: My renewal charged me before the trial ended.
+Category: billing"
+1,few_shot,23,account,other,ok,0,471.8,115,18,0,1,,"Message: I want to delete my account and everything stored in it.
+Category: other"
+1,few_shot,24,account,technical,ok,0,489.7,116,19,0,1,,"Message: Two factor authentication is locking me out, my codes are rejected.
+Category: technical"
+1,few_shot,25,account,other,ok,0,449.8,114,17,0,1,,"Message: Can you transfer ownership of the workspace to my colleague?
+Category: other"
+1,few_shot,26,account,billing,ok,0,428.6,113,16,0,1,,"Message: I need to add three teammates to my plan.
+Category: billing"
+1,few_shot,27,account,"i would classify the message: ""my username shows as null after i signed in."" as: technical",malformed,0,537.9,113,21,0,1,,"I would classify the message: ""My username shows as null after I signed in."" as: technical"
+1,few_shot,28,account,account,ok,1,473.2,115,18,0,1,,"Message: I have two accounts by mistake, can you merge them?
+Category: account"
+1,few_shot,29,account,"i would classify the message: ""how do i revoke access for an old device i no longer own?"" as ""other"". this message seems to be related to",malformed,0,772.2,117,32,0,1,,"I would classify the message: ""How do I revoke access for an old device I no longer own?"" as ""other"". This message seems to be related to"
+1,few_shot,30,account,billing,ok,0,407.9,114,15,0,1,,"Message: My renewal charged me before the trial ended.
+Category: billing"
+1,few_shot,31,other,other,ok,1,492.0,116,19,0,1,,"Message: Just wanted to say the new release is great, thank you.
+Category: other"
+1,few_shot,32,other,other,ok,1,386.4,111,14,0,1,,"Message: Do you have an office in Berlin?
+Category: other"
+1,few_shot,33,other,other,ok,1,396.7,111,14,0,1,,"Message: Are you hiring backend engineers right now?
+Category: other"
+1,few_shot,34,other,other,ok,1,433.8,113,16,0,1,,"Message: Can I get a sticker pack for my team?
+Category: other"
+1,few_shot,35,other,"i would classify the message ""who should i contact about a partnership?"" as ""other"". this message does not seem to be related to a specific issue with a",malformed,0,791.3,111,32,0,1,,"I would classify the message ""Who should I contact about a partnership?"" as ""other"". This message does not seem to be related to a specific issue with a"
+1,few_shot,36,other,other,ok,1,451.7,114,17,0,1,,"Message: Is there an integration with Notion on the roadmap?
+Category: other"
+1,few_shot,37,other,other,ok,1,385.7,111,14,0,1,,"Message: What are your support hours on weekends?
+Category: other"
+1,few_shot,38,other,message: hello?,hallucinated,0,166.0,105,4,0,1,,Message: Hello?
+1,few_shot,39,other,billing,ok,0,411.0,118,15,0,1,,"Message: My renewal charged me before the trial ended.
+Category: billing"
+1,few_shot,40,other,here are the classifications:,malformed,0,194.2,114,5,0,1,,Here are the classifications:
+2,few_shot,1,billing,billing,ok,1,447.1,120,15,0,1,,"Message: My renewal charged me before the trial ended.
+Category: billing"
+2,few_shot,2,billing,"i would classify the message ""why did my invoice go up from 20 to 35 dollars?"" as:",malformed,0,620.9,117,22,0,1,,"I would classify the message ""Why did my invoice go up from 20 to 35 dollars?"" as:"
+2,few_shot,3,billing,billing,ok,1,466.3,115,15,0,1,,"Message: My renewal charged me before the trial ended.
+Category: billing"
+2,few_shot,4,billing,billing,ok,1,586.1,117,20,0,1,,"Message: Do you offer annual pricing, and is there a discount on it?
+Category: billing"
+2,few_shot,5,billing,billing,ok,1,476.6,114,15,0,1,,"Message: My renewal charged me before the trial ended.
+Category: billing"
+2,few_shot,6,billing,billing,ok,1,591.3,117,20,0,1,,"Message: Please send me a copy of the receipt for order 4471.
+Category: billing"
+2,few_shot,7,billing,i'd be happy to help classify the support messages,malformed,0,397.8,117,11,0,1,,I'd be happy to help classify the support messages.
+2,few_shot,8,billing,"i would classify the message: ""i think i was billed for the wrong plan tier."" into the category: billing",malformed,0,758.6,114,25,0,1,,"I would classify the message: ""I think I was billed for the wrong plan tier."" into the category: billing."
+2,few_shot,9,billing,billing,ok,1,561.7,116,19,0,1,,"Message: Can I get a refund for the two months I never used?
+Category: billing"
+2,few_shot,10,billing,billing,ok,1,670.8,120,23,0,1,,"Message: There is a 9.99 charge on my statement that I do not recognise.
+Category: billing"
+2,few_shot,11,technical,technical,ok,1,529.4,114,17,0,1,,"Message: The app crashes every time I open the reports tab.
+Category: technical"
+2,few_shot,12,technical,technical,ok,1,513.7,113,16,0,1,,"Message: Uploads keep failing with a 500 error.
+Category: technical"
+2,few_shot,13,technical,technical,ok,1,545.8,114,17,0,1,,"Message: The dashboard takes almost a minute to load since yesterday.
+Category: technical"
+2,few_shot,14,technical,technical,ok,1,587.7,117,20,0,1,,"Message: Dark mode is broken on Android 14, the text is invisible.
+Category: technical"
+2,few_shot,15,technical,billing,ok,0,475.1,115,15,0,1,,"Message: My renewal charged me before the trial ended.
+Category: billing"
+2,few_shot,16,technical,technical,ok,1,475.5,112,15,0,1,,"Message: Export to PDF produces a completely blank file.
+Category: technical"
+2,few_shot,17,technical,i'd be happy to help classify the support messages,malformed,0,384.9,115,11,0,1,,I'd be happy to help classify the support messages.
+2,few_shot,18,technical,technical,ok,1,491.5,113,16,0,1,,"Message: The search bar returns nothing even for exact titles.
+Category: technical"
+2,few_shot,19,technical,technical,ok,1,447.4,111,14,0,1,,"Message: Notifications stopped arriving after the last update.
+Category: technical"
+2,few_shot,20,technical,technical,ok,1,476.6,112,15,0,1,,"Message: The webhook fires twice for every single event.
+Category: technical"
+2,few_shot,21,account,billing,ok,0,536.7,114,17,0,1,,"Message: I forgot my password and the reset email never arrives.
+Category: billing"
+2,few_shot,22,account,billing,ok,0,484.3,114,15,0,1,,"Message: My renewal charged me before the trial ended.
+Category: billing"
+2,few_shot,23,account,other,ok,0,559.0,115,18,0,1,,"Message: I want to delete my account and everything stored in it.
+Category: other"
+2,few_shot,24,account,technical,ok,0,576.6,116,19,0,1,,"Message: Two factor authentication is locking me out, my codes are rejected.
+Category: technical"
+2,few_shot,25,account,other,ok,0,535.3,114,17,0,1,,"Message: Can you transfer ownership of the workspace to my colleague?
+Category: other"
+2,few_shot,26,account,billing,ok,0,510.7,113,16,0,1,,"Message: I need to add three teammates to my plan.
+Category: billing"
+2,few_shot,27,account,"i would classify the message: ""my username shows as null after i signed in."" as: technical",malformed,0,634.6,113,21,0,1,,"I would classify the message: ""My username shows as null after I signed in."" as: technical"
+2,few_shot,28,account,account,ok,1,558.9,115,18,0,1,,"Message: I have two accounts by mistake, can you merge them?
+Category: account"
+2,few_shot,29,account,"i would classify the message: ""how do i revoke access for an old device i no longer own?"" as ""other"". this message seems to be related to",malformed,0,900.4,117,32,0,1,,"I would classify the message: ""How do I revoke access for an old device I no longer own?"" as ""other"". This message seems to be related to"
+2,few_shot,30,account,billing,ok,0,490.7,114,15,0,1,,"Message: My renewal charged me before the trial ended.
+Category: billing"
+2,few_shot,31,other,other,ok,1,584.7,116,19,0,1,,"Message: Just wanted to say the new release is great, thank you.
+Category: other"
+2,few_shot,32,other,other,ok,1,475.1,111,14,0,1,,"Message: Do you have an office in Berlin?
+Category: other"
+2,few_shot,33,other,other,ok,1,470.9,111,14,0,1,,"Message: Are you hiring backend engineers right now?
+Category: other"
+2,few_shot,34,other,other,ok,1,515.7,113,16,0,1,,"Message: Can I get a sticker pack for my team?
+Category: other"
+2,few_shot,35,other,"i would classify the message ""who should i contact about a partnership?"" as ""other"". this message does not seem to be related to a specific issue with a",malformed,0,914.4,111,32,0,1,,"I would classify the message ""Who should I contact about a partnership?"" as ""other"". This message does not seem to be related to a specific issue with a"
+2,few_shot,36,other,other,ok,1,539.8,114,17,0,1,,"Message: Is there an integration with Notion on the roadmap?
+Category: other"
+2,few_shot,37,other,other,ok,1,472.7,111,14,0,1,,"Message: What are your support hours on weekends?
+Category: other"
+2,few_shot,38,other,message: hello?,hallucinated,0,214.6,105,4,0,1,,Message: Hello?
+2,few_shot,39,other,billing,ok,0,494.0,118,15,0,1,,"Message: My renewal charged me before the trial ended.
+Category: billing"
+2,few_shot,40,other,here are the classifications:,malformed,0,239.5,114,5,0,1,,Here are the classifications:
+0,few_shot_instruct,1,billing,billing,ok,1,0.0,138,2,1,1,,billing
+0,few_shot_instruct,2,billing,billing,ok,1,0.0,135,2,1,1,,billing
+0,few_shot_instruct,3,billing,other,ok,0,133.7,133,2,0,1,,other
+0,few_shot_instruct,4,billing,other,ok,0,126.5,135,2,0,1,,other
+0,few_shot_instruct,5,billing,billing,ok,1,125.5,132,2,0,1,,billing
+0,few_shot_instruct,6,billing,billing,ok,1,126.0,135,2,0,1,,billing
+0,few_shot_instruct,7,billing,billing,ok,1,126.1,135,2,0,1,,billing
+0,few_shot_instruct,8,billing,billing,ok,1,125.4,132,2,0,1,,billing
+0,few_shot_instruct,9,billing,billing,ok,1,125.7,134,2,0,1,,billing
+0,few_shot_instruct,10,billing,billing,ok,1,122.4,138,2,0,1,,billing
+0,few_shot_instruct,11,technical,technical,ok,1,0.0,132,2,1,1,,technical
+0,few_shot_instruct,12,technical,technical,ok,1,0.0,131,2,1,1,,technical
+0,few_shot_instruct,13,technical,technical,ok,1,127.1,132,2,0,1,,technical
+0,few_shot_instruct,14,technical,technical,ok,1,125.0,135,2,0,1,,technical
+0,few_shot_instruct,15,technical,technical,ok,1,125.9,133,2,0,1,,technical
+0,few_shot_instruct,16,technical,technical,ok,1,125.9,130,2,0,1,,technical
+0,few_shot_instruct,17,technical,technical,ok,1,129.6,133,2,0,1,,technical
+0,few_shot_instruct,18,technical,technical,ok,1,124.2,131,2,0,1,,technical
+0,few_shot_instruct,19,technical,technical,ok,1,123.6,129,2,0,1,,technical
+0,few_shot_instruct,20,technical,technical,ok,1,125.0,130,2,0,1,,technical
+0,few_shot_instruct,21,account,technical,ok,0,0.0,132,2,1,1,,technical
+0,few_shot_instruct,22,account,account,ok,1,0.0,132,2,1,1,,account
+0,few_shot_instruct,23,account,account,ok,1,125.9,133,2,0,1,,account
+0,few_shot_instruct,24,account,technical,ok,0,127.4,134,2,0,1,,technical
+0,few_shot_instruct,25,account,account,ok,1,125.7,132,2,0,1,,account
+0,few_shot_instruct,26,account,account,ok,1,124.6,131,2,0,1,,account
+0,few_shot_instruct,27,account,technical,ok,0,124.1,131,2,0,1,,technical
+0,few_shot_instruct,28,account,account,ok,1,123.6,133,2,0,1,,account
+0,few_shot_instruct,29,account,account,ok,1,125.6,135,2,0,1,,account
+0,few_shot_instruct,30,account,account,ok,1,124.0,132,2,0,1,,account
+0,few_shot_instruct,31,other,other,ok,1,0.0,134,2,1,1,,other
+0,few_shot_instruct,32,other,other,ok,1,0.0,129,2,1,1,,other
+0,few_shot_instruct,33,other,other,ok,1,123.1,129,2,0,1,,other
+0,few_shot_instruct,34,other,other,ok,1,123.6,131,2,0,1,,other
+0,few_shot_instruct,35,other,other,ok,1,123.9,129,2,0,1,,other
+0,few_shot_instruct,36,other,other,ok,1,126.3,132,2,0,1,,other
+0,few_shot_instruct,37,other,other,ok,1,123.8,129,2,0,1,,other
+0,few_shot_instruct,38,other,other,ok,1,168.9,123,2,0,1,,other
+0,few_shot_instruct,39,other,other,ok,1,117.8,136,2,0,1,,other
+0,few_shot_instruct,40,other,other,ok,1,123.4,132,2,0,1,,other
+1,few_shot_instruct,1,billing,billing,ok,1,159.4,138,2,0,1,,billing
+1,few_shot_instruct,2,billing,billing,ok,1,128.3,135,2,0,1,,billing
+1,few_shot_instruct,3,billing,other,ok,0,126.5,133,2,0,1,,other
+1,few_shot_instruct,4,billing,other,ok,0,127.5,135,2,0,1,,other
+1,few_shot_instruct,5,billing,billing,ok,1,127.7,132,2,0,1,,billing
+1,few_shot_instruct,6,billing,billing,ok,1,128.7,135,2,0,1,,billing
+1,few_shot_instruct,7,billing,billing,ok,1,128.6,135,2,0,1,,billing
+1,few_shot_instruct,8,billing,billing,ok,1,127.8,132,2,0,1,,billing
+1,few_shot_instruct,9,billing,billing,ok,1,126.9,134,2,0,1,,billing
+1,few_shot_instruct,10,billing,billing,ok,1,123.2,138,2,0,1,,billing
+1,few_shot_instruct,11,technical,technical,ok,1,126.4,132,2,0,1,,technical
+1,few_shot_instruct,12,technical,technical,ok,1,125.2,131,2,0,1,,technical
+1,few_shot_instruct,13,technical,technical,ok,1,126.1,132,2,0,1,,technical
+1,few_shot_instruct,14,technical,technical,ok,1,126.3,135,2,0,1,,technical
+1,few_shot_instruct,15,technical,technical,ok,1,125.0,133,2,0,1,,technical
+1,few_shot_instruct,16,technical,technical,ok,1,125.3,130,2,0,1,,technical
+1,few_shot_instruct,17,technical,technical,ok,1,125.2,133,2,0,1,,technical
+1,few_shot_instruct,18,technical,technical,ok,1,124.7,131,2,0,1,,technical
+1,few_shot_instruct,19,technical,technical,ok,1,124.5,129,2,0,1,,technical
+1,few_shot_instruct,20,technical,technical,ok,1,123.8,130,2,0,1,,technical
+1,few_shot_instruct,21,account,technical,ok,0,126.6,132,2,0,1,,technical
+1,few_shot_instruct,22,account,account,ok,1,125.6,132,2,0,1,,account
+1,few_shot_instruct,23,account,account,ok,1,126.7,133,2,0,1,,account
+1,few_shot_instruct,24,account,technical,ok,0,125.2,134,2,0,1,,technical
+1,few_shot_instruct,25,account,account,ok,1,125.3,132,2,0,1,,account
+1,few_shot_instruct,26,account,account,ok,1,124.6,131,2,0,1,,account
+1,few_shot_instruct,27,account,technical,ok,0,124.4,131,2,0,1,,technical
+1,few_shot_instruct,28,account,account,ok,1,124.3,133,2,0,1,,account
+1,few_shot_instruct,29,account,account,ok,1,125.6,135,2,0,1,,account
+1,few_shot_instruct,30,account,account,ok,1,125.6,132,2,0,1,,account
+1,few_shot_instruct,31,other,other,ok,1,125.9,134,2,0,1,,other
+1,few_shot_instruct,32,other,other,ok,1,123.8,129,2,0,1,,other
+1,few_shot_instruct,33,other,other,ok,1,124.0,129,2,0,1,,other
+1,few_shot_instruct,34,other,other,ok,1,124.6,131,2,0,1,,other
+1,few_shot_instruct,35,other,other,ok,1,123.0,129,2,0,1,,other
+1,few_shot_instruct,36,other,other,ok,1,125.4,132,2,0,1,,other
+1,few_shot_instruct,37,other,other,ok,1,124.6,129,2,0,1,,other
+1,few_shot_instruct,38,other,other,ok,1,169.0,123,2,0,1,,other
+1,few_shot_instruct,39,other,other,ok,1,116.1,136,2,0,1,,other
+1,few_shot_instruct,40,other,other,ok,1,117.4,132,2,0,1,,other
+2,few_shot_instruct,1,billing,billing,ok,1,170.4,138,2,0,1,,billing
+2,few_shot_instruct,2,billing,billing,ok,1,160.9,135,2,0,1,,billing
+2,few_shot_instruct,3,billing,other,ok,0,160.3,133,2,0,1,,other
+2,few_shot_instruct,4,billing,other,ok,0,161.6,135,2,0,1,,other
+2,few_shot_instruct,5,billing,billing,ok,1,145.9,132,2,0,1,,billing
+2,few_shot_instruct,6,billing,billing,ok,1,144.0,135,2,0,1,,billing
+2,few_shot_instruct,7,billing,billing,ok,1,141.1,135,2,0,1,,billing
+2,few_shot_instruct,8,billing,billing,ok,1,141.6,132,2,0,1,,billing
+2,few_shot_instruct,9,billing,billing,ok,1,141.3,134,2,0,1,,billing
+2,few_shot_instruct,10,billing,billing,ok,1,139.0,138,2,0,1,,billing
+2,few_shot_instruct,11,technical,technical,ok,1,142.2,132,2,0,1,,technical
+2,few_shot_instruct,12,technical,technical,ok,1,141.3,131,2,0,1,,technical
+2,few_shot_instruct,13,technical,technical,ok,1,141.4,132,2,0,1,,technical
+2,few_shot_instruct,14,technical,technical,ok,1,143.0,135,2,0,1,,technical
+2,few_shot_instruct,15,technical,technical,ok,1,143.0,133,2,0,1,,technical
+2,few_shot_instruct,16,technical,technical,ok,1,140.3,130,2,0,1,,technical
+2,few_shot_instruct,17,technical,technical,ok,1,143.2,133,2,0,1,,technical
+2,few_shot_instruct,18,technical,technical,ok,1,141.1,131,2,0,1,,technical
+2,few_shot_instruct,19,technical,technical,ok,1,141.5,129,2,0,1,,technical
+2,few_shot_instruct,20,technical,technical,ok,1,141.1,130,2,0,1,,technical
+2,few_shot_instruct,21,account,technical,ok,0,143.3,132,2,0,1,,technical
+2,few_shot_instruct,22,account,account,ok,1,143.7,132,2,0,1,,account
+2,few_shot_instruct,23,account,account,ok,1,143.8,133,2,0,1,,account
+2,few_shot_instruct,24,account,technical,ok,0,144.5,134,2,0,1,,technical
+2,few_shot_instruct,25,account,account,ok,1,144.9,132,2,0,1,,account
+2,few_shot_instruct,26,account,account,ok,1,144.3,131,2,0,1,,account
+2,few_shot_instruct,27,account,technical,ok,0,144.3,131,2,0,1,,technical
+2,few_shot_instruct,28,account,account,ok,1,145.5,133,2,0,1,,account
+2,few_shot_instruct,29,account,account,ok,1,146.8,135,2,0,1,,account
+2,few_shot_instruct,30,account,account,ok,1,145.2,132,2,0,1,,account
+2,few_shot_instruct,31,other,other,ok,1,145.6,134,2,0,1,,other
+2,few_shot_instruct,32,other,other,ok,1,143.0,129,2,0,1,,other
+2,few_shot_instruct,33,other,other,ok,1,143.4,129,2,0,1,,other
+2,few_shot_instruct,34,other,other,ok,1,144.3,131,2,0,1,,other
+2,few_shot_instruct,35,other,other,ok,1,142.7,129,2,0,1,,other
+2,few_shot_instruct,36,other,other,ok,1,145.2,132,2,0,1,,other
+2,few_shot_instruct,37,other,other,ok,1,143.9,129,2,0,1,,other
+2,few_shot_instruct,38,other,other,ok,1,199.3,123,2,0,1,,other
+2,few_shot_instruct,39,other,other,ok,1,136.8,136,2,0,1,,other
+2,few_shot_instruct,40,other,other,ok,1,140.5,132,2,0,1,,other
+0,chain_of_thought,1,billing,billing,ok,1,0.0,97,49,1,1,,"The message is related to a payment issue, which falls under the category of billing. The user is asking for a refund, which is a common billing-related request. There is no mention of technical issues or account management.
+
+ANSWER: billing"
+0,chain_of_thought,2,billing,billing,ok,1,0.0,94,50,1,1,,"The message is asking about a change in the amount of an invoice, which suggests a concern about the billing process. This indicates that the issue is related to the financial aspect of the account. Therefore, the category is billing.
+
+ANSWER: billing"
+0,chain_of_thought,3,billing,technical,ok,0,1352.6,92,58,0,1,,"The message mentions a payment failure, which suggests a technical issue. However, the fact that the money was still withdrawn from the bank account implies that the issue is related to the payment processing rather than the account itself. Therefore, the issue is likely technical in nature.
+
+ANSWER: technical"
+0,chain_of_thought,4,billing,billing,ok,1,1139.7,94,49,0,1,,"The message is asking about pricing options, specifically annual pricing and a discount, which suggests it is related to billing. There is no mention of technical issues or account management. The focus on pricing suggests a billing-related inquiry.
+
+ANSWER: billing"
+0,chain_of_thought,5,billing,billing,ok,1,1136.8,91,49,0,1,,"The message appears to be related to a billing issue, as the customer is disputing a charge despite having previously cancelled. There is no mention of technical issues or account-related problems. The focus is on the billing process.
+
+ANSWER: billing"
+0,chain_of_thought,6,billing,billing,ok,1,1286.2,94,56,0,1,,"This message is related to a customer's request for a receipt, which is typically a billing-related inquiry. The request is specific to a particular order, but the focus is on obtaining a document rather than troubleshooting an issue. Therefore, the category is billing.
+
+ANSWER: billing"
+0,chain_of_thought,7,billing,billing,ok,1,945.3,94,40,0,1,,"This message is related to payment information, which falls under the category of billing. The user is asking about updating their payment card, which is a common billing-related inquiry. 
+
+ANSWER: billing"
+0,chain_of_thought,8,billing,billing,ok,1,1048.8,91,45,0,1,,"The message mentions a billing issue, specifically a concern about being charged for the wrong plan tier. This suggests a financial or account-related problem rather than a technical issue. Therefore, the category is billing.
+
+ANSWER: billing"
+0,chain_of_thought,9,billing,billing,ok,1,1069.5,93,46,0,1,,"The message is asking about a refund, which is typically a billing-related inquiry. The request is also specific to a past period of usage, which suggests a billing issue. Therefore, the category is billing.
+
+ANSWER: billing"
+0,chain_of_thought,10,billing,billing,ok,1,1041.2,97,44,0,1,,"The message mentions a charge on a statement, which suggests a financial or billing issue. There is no mention of technical problems or account-related queries. Therefore, the issue is likely related to billing.
+
+ANSWER: billing"
+0,chain_of_thought,11,technical,technical,ok,1,0.0,91,49,1,1,,"The message mentions an app crashing, which suggests a technical issue. The specific issue is related to the reports tab, which is a feature within the app. This indicates a technical problem rather than a billing or account issue.
+
+ANSWER: technical"
+0,chain_of_thought,12,technical,technical,ok,1,0.0,90,58,1,1,,"The message mentions a specific error code (500) and a general issue with file uploads, which suggests a technical problem. The error code is often related to server-side issues, rather than billing or account-related problems. Therefore, the issue is likely technical in nature.
+
+ANSWER: technical"
+0,chain_of_thought,13,technical,technical,ok,1,1118.0,91,48,0,1,,"The message is related to a performance issue with the dashboard, which suggests a technical problem. It does not mention anything about billing or account settings. Therefore, the issue is likely related to the functionality of the system.
+
+ANSWER: technical"
+0,chain_of_thought,14,technical,technical,ok,1,1157.1,94,50,0,1,,"The message is related to a technical issue with the Android 14 operating system, specifically with the dark mode feature. It does not mention billing or account-related concerns. Therefore, the issue is best classified as a technical problem.
+
+ANSWER: technical"
+0,chain_of_thought,15,technical,technical,ok,1,1348.3,92,58,0,1,,"This message appears to be related to a technical issue with data syncing between devices, rather than billing or account-related concerns. The focus on a specific technical problem (data syncing) suggests a technical issue. The issue is device-specific, not related to account or billing.
+
+ANSWER: technical"
+0,chain_of_thought,16,technical,technical,ok,1,1262.6,89,55,0,1,,"The message is related to a software feature (export to PDF) that is not functioning as expected, which suggests a technical issue. The issue is with the software itself, rather than a billing or account-related problem. Therefore, the category is technical.
+
+ANSWER: technical"
+0,chain_of_thought,17,technical,technical,ok,1,1171.3,92,50,0,1,,"The message mentions a timeout issue, which is a technical problem related to performance or resource limitations. It does not mention anything about billing or account settings. Therefore, the issue is likely related to the technical aspects of the system.
+
+ANSWER: technical"
+0,chain_of_thought,18,technical,technical,ok,1,1051.9,90,45,0,1,,"The message is related to a search functionality issue, which suggests a technical problem. Since it's not about billing or account settings, it's likely a technical issue. Therefore, the category is technical.
+
+ANSWER: technical"
+0,chain_of_thought,19,technical,technical,ok,1,1211.1,88,52,0,1,,"The message mentions a specific issue with notifications, which suggests a technical problem. It also implies a change occurred recently, which is a common context for technical issues. Therefore, the issue is likely related to the technical aspect of the service.
+
+ANSWER: technical"
+0,chain_of_thought,20,technical,technical,ok,1,918.2,89,39,0,1,,"The message is related to a technical issue with a webhook, which is a technical concept. It's not about billing or account settings. Therefore, the category is technical.
+
+ANSWER: technical"
+0,chain_of_thought,21,account,technical,ok,0,0.0,91,54,1,1,,"The message is related to a forgotten password, which is a common issue that can be resolved through technical assistance. The fact that the reset email never arrives suggests a technical issue with the account's password reset process. Therefore, the category is technical.
+
+ANSWER: technical"
+0,chain_of_thought,22,account,account,ok,1,0.0,91,45,1,1,,"This message is related to user account settings, specifically changing the email address associated with the account. It does not mention billing or technical issues. Therefore, it falls under the category of account-related inquiries.
+
+ANSWER: account"
+0,chain_of_thought,23,account,account,ok,1,983.2,92,42,0,1,,"The message is requesting to delete an account, which is a common request for account-related issues. There is no mention of billing or technical concerns. Therefore, the category is account-related.
+
+ANSWER: account"
+0,chain_of_thought,24,account,account,ok,1,1523.2,93,67,0,1,,"This message is related to account security, as it's about a specific authentication method (2-factor authentication) that's causing an issue. It doesn't mention any billing or technical issues, so those categories can be ruled out. The focus on account security makes it a good fit for the ""account"" category.
+
+ANSWER: account"
+0,chain_of_thought,25,account,account,ok,1,1096.6,91,47,0,1,,"The message is requesting a change to the workspace, which suggests a request related to the account or workspace itself. It does not mention any technical issues or billing concerns. Therefore, the category is likely 'account'.
+
+ANSWER: account"
+0,chain_of_thought,26,account,account,ok,1,1067.4,90,46,0,1,,"This message is related to the management of a plan, which is typically a feature of an account. It does not mention any technical issues or billing concerns. Therefore, it falls under the category of account.
+
+ANSWER: account"
+0,chain_of_thought,27,account,account,ok,1,1309.8,90,57,0,1,,"The message is related to a user's account and login issue, so it's not a billing or technical problem. It's also not a general inquiry about the account, but rather a specific issue with the username. Therefore, it falls under the account category.
+
+ANSWER: account"
+0,chain_of_thought,28,account,account,ok,1,1299.3,92,54,0,1,,"The message is asking for a change to the user's account, which suggests a request related to their account information. This is not a billing or technical issue, but rather a request for an administrative action. Therefore, the category is account-related.
+
+ANSWER: account"
+0,chain_of_thought,29,account,account,ok,1,1290.8,94,56,0,1,,"This message is related to account management, as it involves revoking access to a device that is no longer owned by the user. The request is likely coming from a former customer trying to close their account. There is no mention of billing or technical issues.
+
+ANSWER: account"
+0,chain_of_thought,30,account,account,ok,1,1222.2,91,53,0,1,,"The message is about an account issue, specifically a suspension, which falls under the category of account-related concerns. It does not mention any technical details or billing issues. Therefore, the classification is based on the account-related nature of the message.
+
+ANSWER: account"
+0,chain_of_thought,31,other,other,ok,1,0.0,93,48,1,1,,"This message does not contain any technical issues or billing concerns, so it's unlikely to be either of those categories. It's also not related to an account issue. Therefore, it's best classified as 'other'.
+
+ANSWER: other"
+0,chain_of_thought,32,other,other,ok,1,0.0,88,61,1,1,,"This message does not appear to be related to billing, as it does not mention any financial information. It also does not seem to be a technical issue, as it does not contain any technical terms or questions. The message is likely related to the company's physical presence or location.
+
+ANSWER: other"
+0,chain_of_thought,33,other,other,ok,1,1347.3,88,59,0,1,,"This message does not appear to be related to a technical issue or a billing inquiry, as it is asking about job openings rather than a specific problem or concern. It also doesn't seem to be about an account-related topic. Therefore, it falls under a different category.
+
+ANSWER: other"
+0,chain_of_thought,34,other,other,ok,1,1587.2,90,68,0,1,,"This message is not related to billing, as there is no mention of payment or charges. It's also not a technical issue, as it doesn't describe a problem with a product or service. The request seems to be related to a feature or customization, which falls under the category of account settings or customization options.
+
+ANSWER: other"
+0,chain_of_thought,35,other,other,ok,1,1121.7,88,47,0,1,,"This message appears to be related to a business or partnership inquiry, rather than a technical issue or billing concern. It does not directly relate to account management. Therefore, it falls under the ""other"" category.
+
+ANSWER: other"
+0,chain_of_thought,36,other,other,ok,1,1349.7,91,59,0,1,,"This message is asking about a feature or functionality, rather than a billing or account issue. It's also not a technical issue, as it's not asking for help with a specific problem or error. Therefore, it's likely a question about a feature or product roadmap.
+
+ANSWER: other"
+0,chain_of_thought,37,other,other,ok,1,1352.2,88,59,0,1,,"This message is asking about the support hours, which is a general inquiry about the availability of support services, rather than a specific issue with a product or service. It does not contain any technical details or billing information. Therefore, it falls under the category of ""other"".
+
+ANSWER: other"
+0,chain_of_thought,38,other,other,ok,1,1546.2,82,66,0,1,,"This message appears to be a greeting and does not contain any specific details about a product or service, making it unlikely to be related to billing, technical, or account issues. The message is too vague to be classified under any of the other categories. Therefore, the message is best classified as 'other'.
+
+ANSWER: other"
+0,chain_of_thought,39,other,other,ok,1,1106.7,95,48,0,1,,"This message appears to be about permissions or usage, rather than a billing or technical issue. It also doesn't seem to be related to an account issue. Therefore, it's likely a question about usage or permissions.
+
+ANSWER: other"
+0,chain_of_thought,40,other,other,ok,1,994.8,91,42,0,1,,"This message does not contain any technical or billing-related information, and it doesn't seem to be about an account issue. It appears to be a polite closing message from a customer. 
+
+ANSWER: other"
+1,chain_of_thought,1,billing,billing,ok,1,1137.2,97,49,0,1,,"The message is related to a payment issue, which falls under the category of billing. The user is asking for a refund, which is a common billing-related request. There is no mention of technical issues or account management.
+
+ANSWER: billing"
+1,chain_of_thought,2,billing,billing,ok,1,1172.2,94,50,0,1,,"The message is asking about a change in the amount of an invoice, which suggests a concern about the billing process. This indicates that the issue is related to the financial aspect of the account. Therefore, the category is billing.
+
+ANSWER: billing"
+1,chain_of_thought,3,billing,technical,ok,0,1363.8,92,58,0,1,,"The message mentions a payment failure, which suggests a technical issue. However, the fact that the money was still withdrawn from the bank account implies that the issue is related to the payment processing rather than the account itself. Therefore, the issue is likely technical in nature.
+
+ANSWER: technical"
+1,chain_of_thought,4,billing,billing,ok,1,1167.6,94,49,0,1,,"The message is asking about pricing options, specifically annual pricing and a discount, which suggests it is related to billing. There is no mention of technical issues or account management. The focus on pricing suggests a billing-related inquiry.
+
+ANSWER: billing"
+1,chain_of_thought,5,billing,billing,ok,1,1171.2,91,49,0,1,,"The message appears to be related to a billing issue, as the customer is disputing a charge despite having previously cancelled. There is no mention of technical issues or account-related problems. The focus is on the billing process.
+
+ANSWER: billing"
+1,chain_of_thought,6,billing,billing,ok,1,1315.5,94,56,0,1,,"This message is related to a customer's request for a receipt, which is typically a billing-related inquiry. The request is specific to a particular order, but the focus is on obtaining a document rather than troubleshooting an issue. Therefore, the category is billing.
+
+ANSWER: billing"
+1,chain_of_thought,7,billing,billing,ok,1,960.5,94,40,0,1,,"This message is related to payment information, which falls under the category of billing. The user is asking about updating their payment card, which is a common billing-related inquiry. 
+
+ANSWER: billing"
+1,chain_of_thought,8,billing,billing,ok,1,1071.3,91,45,0,1,,"The message mentions a billing issue, specifically a concern about being charged for the wrong plan tier. This suggests a financial or account-related problem rather than a technical issue. Therefore, the category is billing.
+
+ANSWER: billing"
+1,chain_of_thought,9,billing,billing,ok,1,1092.2,93,46,0,1,,"The message is asking about a refund, which is typically a billing-related inquiry. The request is also specific to a past period of usage, which suggests a billing issue. Therefore, the category is billing.
+
+ANSWER: billing"
+1,chain_of_thought,10,billing,billing,ok,1,1110.5,97,44,0,1,,"The message mentions a charge on a statement, which suggests a financial or billing issue. There is no mention of technical problems or account-related queries. Therefore, the issue is likely related to billing.
+
+ANSWER: billing"
+1,chain_of_thought,11,technical,technical,ok,1,1174.5,91,49,0,1,,"The message mentions an app crashing, which suggests a technical issue. The specific issue is related to the reports tab, which is a feature within the app. This indicates a technical problem rather than a billing or account issue.
+
+ANSWER: technical"
+1,chain_of_thought,12,technical,technical,ok,1,1372.0,90,58,0,1,,"The message mentions a specific error code (500) and a general issue with file uploads, which suggests a technical problem. The error code is often related to server-side issues, rather than billing or account-related problems. Therefore, the issue is likely technical in nature.
+
+ANSWER: technical"
+1,chain_of_thought,13,technical,technical,ok,1,1159.0,91,48,0,1,,"The message is related to a performance issue with the dashboard, which suggests a technical problem. It does not mention anything about billing or account settings. Therefore, the issue is likely related to the functionality of the system.
+
+ANSWER: technical"
+1,chain_of_thought,14,technical,technical,ok,1,1198.7,94,50,0,1,,"The message is related to a technical issue with the Android 14 operating system, specifically with the dark mode feature. It does not mention billing or account-related concerns. Therefore, the issue is best classified as a technical problem.
+
+ANSWER: technical"
+1,chain_of_thought,15,technical,technical,ok,1,1371.0,92,58,0,1,,"This message appears to be related to a technical issue with data syncing between devices, rather than billing or account-related concerns. The focus on a specific technical problem (data syncing) suggests a technical issue. The issue is device-specific, not related to account or billing.
+
+ANSWER: technical"
+1,chain_of_thought,16,technical,technical,ok,1,1293.0,89,55,0,1,,"The message is related to a software feature (export to PDF) that is not functioning as expected, which suggests a technical issue. The issue is with the software itself, rather than a billing or account-related problem. Therefore, the category is technical.
+
+ANSWER: technical"
+1,chain_of_thought,17,technical,technical,ok,1,1199.5,92,50,0,1,,"The message mentions a timeout issue, which is a technical problem related to performance or resource limitations. It does not mention anything about billing or account settings. Therefore, the issue is likely related to the technical aspects of the system.
+
+ANSWER: technical"
+1,chain_of_thought,18,technical,technical,ok,1,1092.7,90,45,0,1,,"The message is related to a search functionality issue, which suggests a technical problem. Since it's not about billing or account settings, it's likely a technical issue. Therefore, the category is technical.
+
+ANSWER: technical"
+1,chain_of_thought,19,technical,technical,ok,1,1246.2,88,52,0,1,,"The message mentions a specific issue with notifications, which suggests a technical problem. It also implies a change occurred recently, which is a common context for technical issues. Therefore, the issue is likely related to the technical aspect of the service.
+
+ANSWER: technical"
+1,chain_of_thought,20,technical,technical,ok,1,979.1,89,39,0,1,,"The message is related to a technical issue with a webhook, which is a technical concept. It's not about billing or account settings. Therefore, the category is technical.
+
+ANSWER: technical"
+1,chain_of_thought,21,account,technical,ok,0,1288.0,91,54,0,1,,"The message is related to a forgotten password, which is a common issue that can be resolved through technical assistance. The fact that the reset email never arrives suggests a technical issue with the account's password reset process. Therefore, the category is technical.
+
+ANSWER: technical"
+1,chain_of_thought,22,account,account,ok,1,1090.9,91,45,0,1,,"This message is related to user account settings, specifically changing the email address associated with the account. It does not mention billing or technical issues. Therefore, it falls under the category of account-related inquiries.
+
+ANSWER: account"
+1,chain_of_thought,23,account,account,ok,1,1024.0,92,42,0,1,,"The message is requesting to delete an account, which is a common request for account-related issues. There is no mention of billing or technical concerns. Therefore, the category is account-related.
+
+ANSWER: account"
+1,chain_of_thought,24,account,account,ok,1,1594.4,93,67,0,1,,"This message is related to account security, as it's about a specific authentication method (2-factor authentication) that's causing an issue. It doesn't mention any billing or technical issues, so those categories can be ruled out. The focus on account security makes it a good fit for the ""account"" category.
+
+ANSWER: account"
+1,chain_of_thought,25,account,account,ok,1,1146.7,91,47,0,1,,"The message is requesting a change to the workspace, which suggests a request related to the account or workspace itself. It does not mention any technical issues or billing concerns. Therefore, the category is likely 'account'.
+
+ANSWER: account"
+1,chain_of_thought,26,account,account,ok,1,1124.5,90,46,0,1,,"This message is related to the management of a plan, which is typically a feature of an account. It does not mention any technical issues or billing concerns. Therefore, it falls under the category of account.
+
+ANSWER: account"
+1,chain_of_thought,27,account,account,ok,1,1376.2,90,57,0,1,,"The message is related to a user's account and login issue, so it's not a billing or technical problem. It's also not a general inquiry about the account, but rather a specific issue with the username. Therefore, it falls under the account category.
+
+ANSWER: account"
+1,chain_of_thought,28,account,account,ok,1,1329.7,92,54,0,1,,"The message is asking for a change to the user's account, which suggests a request related to their account information. This is not a billing or technical issue, but rather a request for an administrative action. Therefore, the category is account-related.
+
+ANSWER: account"
+1,chain_of_thought,29,account,account,ok,1,1632.3,94,56,0,1,,"This message is related to account management, as it involves revoking access to a device that is no longer owned by the user. The request is likely coming from a former customer trying to close their account. There is no mention of billing or technical issues.
+
+ANSWER: account"
+1,chain_of_thought,30,account,account,ok,1,1426.3,91,53,0,1,,"The message is about an account issue, specifically a suspension, which falls under the category of account-related concerns. It does not mention any technical details or billing issues. Therefore, the classification is based on the account-related nature of the message.
+
+ANSWER: account"
+1,chain_of_thought,31,other,other,ok,1,1431.9,93,48,0,1,,"This message does not contain any technical issues or billing concerns, so it's unlikely to be either of those categories. It's also not related to an account issue. Therefore, it's best classified as 'other'.
+
+ANSWER: other"
+1,chain_of_thought,32,other,other,ok,1,1597.4,88,61,0,1,,"This message does not appear to be related to billing, as it does not mention any financial information. It also does not seem to be a technical issue, as it does not contain any technical terms or questions. The message is likely related to the company's physical presence or location.
+
+ANSWER: other"
+1,chain_of_thought,33,other,other,ok,1,1500.9,88,59,0,1,,"This message does not appear to be related to a technical issue or a billing inquiry, as it is asking about job openings rather than a specific problem or concern. It also doesn't seem to be about an account-related topic. Therefore, it falls under a different category.
+
+ANSWER: other"
+1,chain_of_thought,34,other,other,ok,1,1697.3,90,68,0,1,,"This message is not related to billing, as there is no mention of payment or charges. It's also not a technical issue, as it doesn't describe a problem with a product or service. The request seems to be related to a feature or customization, which falls under the category of account settings or customization options.
+
+ANSWER: other"
+1,chain_of_thought,35,other,other,ok,1,1214.5,88,47,0,1,,"This message appears to be related to a business or partnership inquiry, rather than a technical issue or billing concern. It does not directly relate to account management. Therefore, it falls under the ""other"" category.
+
+ANSWER: other"
+1,chain_of_thought,36,other,other,ok,1,1497.0,91,59,0,1,,"This message is asking about a feature or functionality, rather than a billing or account issue. It's also not a technical issue, as it's not asking for help with a specific problem or error. Therefore, it's likely a question about a feature or product roadmap.
+
+ANSWER: other"
+1,chain_of_thought,37,other,other,ok,1,1546.1,88,59,0,1,,"This message is asking about the support hours, which is a general inquiry about the availability of support services, rather than a specific issue with a product or service. It does not contain any technical details or billing information. Therefore, it falls under the category of ""other"".
+
+ANSWER: other"
+1,chain_of_thought,38,other,other,ok,1,1699.1,82,66,0,1,,"This message appears to be a greeting and does not contain any specific details about a product or service, making it unlikely to be related to billing, technical, or account issues. The message is too vague to be classified under any of the other categories. Therefore, the message is best classified as 'other'.
+
+ANSWER: other"
+1,chain_of_thought,39,other,other,ok,1,1252.3,95,48,0,1,,"This message appears to be about permissions or usage, rather than a billing or technical issue. It also doesn't seem to be related to an account issue. Therefore, it's likely a question about usage or permissions.
+
+ANSWER: other"
+1,chain_of_thought,40,other,other,ok,1,1108.6,91,42,0,1,,"This message does not contain any technical or billing-related information, and it doesn't seem to be about an account issue. It appears to be a polite closing message from a customer. 
+
+ANSWER: other"
+2,chain_of_thought,1,billing,billing,ok,1,1324.9,97,49,0,1,,"The message is related to a payment issue, which falls under the category of billing. The user is asking for a refund, which is a common billing-related request. There is no mention of technical issues or account management.
+
+ANSWER: billing"
+2,chain_of_thought,2,billing,billing,ok,1,1437.0,94,50,0,1,,"The message is asking about a change in the amount of an invoice, which suggests a concern about the billing process. This indicates that the issue is related to the financial aspect of the account. Therefore, the category is billing.
+
+ANSWER: billing"
+2,chain_of_thought,3,billing,technical,ok,0,1667.5,92,58,0,1,,"The message mentions a payment failure, which suggests a technical issue. However, the fact that the money was still withdrawn from the bank account implies that the issue is related to the payment processing rather than the account itself. Therefore, the issue is likely technical in nature.
+
+ANSWER: technical"
+2,chain_of_thought,4,billing,billing,ok,1,1428.8,94,49,0,1,,"The message is asking about pricing options, specifically annual pricing and a discount, which suggests it is related to billing. There is no mention of technical issues or account management. The focus on pricing suggests a billing-related inquiry.
+
+ANSWER: billing"
+2,chain_of_thought,5,billing,billing,ok,1,1422.8,91,49,0,1,,"The message appears to be related to a billing issue, as the customer is disputing a charge despite having previously cancelled. There is no mention of technical issues or account-related problems. The focus is on the billing process.
+
+ANSWER: billing"
+2,chain_of_thought,6,billing,billing,ok,1,1620.2,94,56,0,1,,"This message is related to a customer's request for a receipt, which is typically a billing-related inquiry. The request is specific to a particular order, but the focus is on obtaining a document rather than troubleshooting an issue. Therefore, the category is billing.
+
+ANSWER: billing"
+2,chain_of_thought,7,billing,billing,ok,1,1196.3,94,40,0,1,,"This message is related to payment information, which falls under the category of billing. The user is asking about updating their payment card, which is a common billing-related inquiry. 
+
+ANSWER: billing"
+2,chain_of_thought,8,billing,billing,ok,1,1314.8,91,45,0,1,,"The message mentions a billing issue, specifically a concern about being charged for the wrong plan tier. This suggests a financial or account-related problem rather than a technical issue. Therefore, the category is billing.
+
+ANSWER: billing"
+2,chain_of_thought,9,billing,billing,ok,1,1332.9,93,46,0,1,,"The message is asking about a refund, which is typically a billing-related inquiry. The request is also specific to a past period of usage, which suggests a billing issue. Therefore, the category is billing.
+
+ANSWER: billing"
+2,chain_of_thought,10,billing,billing,ok,1,1285.0,97,44,0,1,,"The message mentions a charge on a statement, which suggests a financial or billing issue. There is no mention of technical problems or account-related queries. Therefore, the issue is likely related to billing.
+
+ANSWER: billing"
+2,chain_of_thought,11,technical,technical,ok,1,1434.7,91,49,0,1,,"The message mentions an app crashing, which suggests a technical issue. The specific issue is related to the reports tab, which is a feature within the app. This indicates a technical problem rather than a billing or account issue.
+
+ANSWER: technical"
+2,chain_of_thought,12,technical,technical,ok,1,1664.7,90,58,0,1,,"The message mentions a specific error code (500) and a general issue with file uploads, which suggests a technical problem. The error code is often related to server-side issues, rather than billing or account-related problems. Therefore, the issue is likely technical in nature.
+
+ANSWER: technical"
+2,chain_of_thought,13,technical,technical,ok,1,1395.9,91,48,0,1,,"The message is related to a performance issue with the dashboard, which suggests a technical problem. It does not mention anything about billing or account settings. Therefore, the issue is likely related to the functionality of the system.
+
+ANSWER: technical"
+2,chain_of_thought,14,technical,technical,ok,1,1450.9,94,50,0,1,,"The message is related to a technical issue with the Android 14 operating system, specifically with the dark mode feature. It does not mention billing or account-related concerns. Therefore, the issue is best classified as a technical problem.
+
+ANSWER: technical"
+2,chain_of_thought,15,technical,technical,ok,1,1660.7,92,58,0,1,,"This message appears to be related to a technical issue with data syncing between devices, rather than billing or account-related concerns. The focus on a specific technical problem (data syncing) suggests a technical issue. The issue is device-specific, not related to account or billing.
+
+ANSWER: technical"
+2,chain_of_thought,16,technical,technical,ok,1,1598.4,89,55,0,1,,"The message is related to a software feature (export to PDF) that is not functioning as expected, which suggests a technical issue. The issue is with the software itself, rather than a billing or account-related problem. Therefore, the category is technical.
+
+ANSWER: technical"
+2,chain_of_thought,17,technical,technical,ok,1,1469.4,92,50,0,1,,"The message mentions a timeout issue, which is a technical problem related to performance or resource limitations. It does not mention anything about billing or account settings. Therefore, the issue is likely related to the technical aspects of the system.
+
+ANSWER: technical"
+2,chain_of_thought,18,technical,technical,ok,1,1333.6,90,45,0,1,,"The message is related to a search functionality issue, which suggests a technical problem. Since it's not about billing or account settings, it's likely a technical issue. Therefore, the category is technical.
+
+ANSWER: technical"
+2,chain_of_thought,19,technical,technical,ok,1,1513.3,88,52,0,1,,"The message mentions a specific issue with notifications, which suggests a technical problem. It also implies a change occurred recently, which is a common context for technical issues. Therefore, the issue is likely related to the technical aspect of the service.
+
+ANSWER: technical"
+2,chain_of_thought,20,technical,technical,ok,1,1166.1,89,39,0,1,,"The message is related to a technical issue with a webhook, which is a technical concept. It's not about billing or account settings. Therefore, the category is technical.
+
+ANSWER: technical"
+2,chain_of_thought,21,account,technical,ok,0,1568.7,91,54,0,1,,"The message is related to a forgotten password, which is a common issue that can be resolved through technical assistance. The fact that the reset email never arrives suggests a technical issue with the account's password reset process. Therefore, the category is technical.
+
+ANSWER: technical"
+2,chain_of_thought,22,account,account,ok,1,1332.9,91,45,0,1,,"This message is related to user account settings, specifically changing the email address associated with the account. It does not mention billing or technical issues. Therefore, it falls under the category of account-related inquiries.
+
+ANSWER: account"
+2,chain_of_thought,23,account,account,ok,1,1256.4,92,42,0,1,,"The message is requesting to delete an account, which is a common request for account-related issues. There is no mention of billing or technical concerns. Therefore, the category is account-related.
+
+ANSWER: account"
+2,chain_of_thought,24,account,account,ok,1,1925.8,93,67,0,1,,"This message is related to account security, as it's about a specific authentication method (2-factor authentication) that's causing an issue. It doesn't mention any billing or technical issues, so those categories can be ruled out. The focus on account security makes it a good fit for the ""account"" category.
+
+ANSWER: account"
+2,chain_of_thought,25,account,account,ok,1,1387.3,91,47,0,1,,"The message is requesting a change to the workspace, which suggests a request related to the account or workspace itself. It does not mention any technical issues or billing concerns. Therefore, the category is likely 'account'.
+
+ANSWER: account"
+2,chain_of_thought,26,account,account,ok,1,1365.1,90,46,0,1,,"This message is related to the management of a plan, which is typically a feature of an account. It does not mention any technical issues or billing concerns. Therefore, it falls under the category of account.
+
+ANSWER: account"
+2,chain_of_thought,27,account,account,ok,1,1658.7,90,57,0,1,,"The message is related to a user's account and login issue, so it's not a billing or technical problem. It's also not a general inquiry about the account, but rather a specific issue with the username. Therefore, it falls under the account category.
+
+ANSWER: account"
+2,chain_of_thought,28,account,account,ok,1,1605.6,92,54,0,1,,"The message is asking for a change to the user's account, which suggests a request related to their account information. This is not a billing or technical issue, but rather a request for an administrative action. Therefore, the category is account-related.
+
+ANSWER: account"
+2,chain_of_thought,29,account,account,ok,1,1641.5,94,56,0,1,,"This message is related to account management, as it involves revoking access to a device that is no longer owned by the user. The request is likely coming from a former customer trying to close their account. There is no mention of billing or technical issues.
+
+ANSWER: account"
+2,chain_of_thought,30,account,account,ok,1,1550.7,91,53,0,1,,"The message is about an account issue, specifically a suspension, which falls under the category of account-related concerns. It does not mention any technical details or billing issues. Therefore, the classification is based on the account-related nature of the message.
+
+ANSWER: account"
+2,chain_of_thought,31,other,other,ok,1,1420.3,93,48,0,1,,"This message does not contain any technical issues or billing concerns, so it's unlikely to be either of those categories. It's also not related to an account issue. Therefore, it's best classified as 'other'.
+
+ANSWER: other"
+2,chain_of_thought,32,other,other,ok,1,1767.0,88,61,0,1,,"This message does not appear to be related to billing, as it does not mention any financial information. It also does not seem to be a technical issue, as it does not contain any technical terms or questions. The message is likely related to the company's physical presence or location.
+
+ANSWER: other"
+2,chain_of_thought,33,other,other,ok,1,1711.0,88,59,0,1,,"This message does not appear to be related to a technical issue or a billing inquiry, as it is asking about job openings rather than a specific problem or concern. It also doesn't seem to be about an account-related topic. Therefore, it falls under a different category.
+
+ANSWER: other"
+2,chain_of_thought,34,other,other,ok,1,1965.6,90,68,0,1,,"This message is not related to billing, as there is no mention of payment or charges. It's also not a technical issue, as it doesn't describe a problem with a product or service. The request seems to be related to a feature or customization, which falls under the category of account settings or customization options.
+
+ANSWER: other"
+2,chain_of_thought,35,other,other,ok,1,1417.5,88,47,0,1,,"This message appears to be related to a business or partnership inquiry, rather than a technical issue or billing concern. It does not directly relate to account management. Therefore, it falls under the ""other"" category.
+
+ANSWER: other"
+2,chain_of_thought,36,other,other,ok,1,1740.8,91,59,0,1,,"This message is asking about a feature or functionality, rather than a billing or account issue. It's also not a technical issue, as it's not asking for help with a specific problem or error. Therefore, it's likely a question about a feature or product roadmap.
+
+ANSWER: other"
+2,chain_of_thought,37,other,other,ok,1,1741.1,88,59,0,1,,"This message is asking about the support hours, which is a general inquiry about the availability of support services, rather than a specific issue with a product or service. It does not contain any technical details or billing information. Therefore, it falls under the category of ""other"".
+
+ANSWER: other"
+2,chain_of_thought,38,other,other,ok,1,1967.4,82,66,0,1,,"This message appears to be a greeting and does not contain any specific details about a product or service, making it unlikely to be related to billing, technical, or account issues. The message is too vague to be classified under any of the other categories. Therefore, the message is best classified as 'other'.
+
+ANSWER: other"
+2,chain_of_thought,39,other,other,ok,1,1422.6,95,48,0,1,,"This message appears to be about permissions or usage, rather than a billing or technical issue. It also doesn't seem to be related to an account issue. Therefore, it's likely a question about usage or permissions.
+
+ANSWER: other"
+2,chain_of_thought,40,other,other,ok,1,1256.9,91,42,0,1,,"This message does not contain any technical or billing-related information, and it doesn't seem to be about an account issue. It appears to be a polite closing message from a customer. 
+
+ANSWER: other"
+0,strict_json,1,billing,billing,ok,1,0.0,97,7,1,1,,"{""category"": ""billing""}"
+0,strict_json,2,billing,billing,ok,1,0.0,94,7,1,1,,"{""category"": ""billing""}"
+0,strict_json,3,billing,billing,ok,1,247.5,92,7,0,1,,"{""category"": ""billing""}"
+0,strict_json,4,billing,billing,ok,1,237.1,94,7,0,1,,"{""category"": ""billing""}"
+0,strict_json,5,billing,billing,ok,1,233.9,91,7,0,1,,"{""category"": ""billing""}"
+0,strict_json,6,billing,account,ok,0,233.2,94,7,0,1,,"{""category"": ""account""}"
+0,strict_json,7,billing,billing,ok,1,235.0,94,7,0,1,,"{""category"": ""billing""}"
+0,strict_json,8,billing,billing,ok,1,232.7,91,7,0,1,,"{""category"": ""billing""}"
+0,strict_json,9,billing,billing,ok,1,231.5,93,7,0,1,,"{""category"": ""billing""}"
+0,strict_json,10,billing,billing,ok,1,227.8,97,7,0,1,,"{""category"": ""billing""}"
+0,strict_json,11,technical,technical,ok,1,0.0,91,7,1,1,,"{""category"": ""technical""}"
+0,strict_json,12,technical,technical,ok,1,0.0,90,7,1,1,,"{""category"": ""technical""}"
+0,strict_json,13,technical,technical,ok,1,230.7,91,7,0,1,,"{""category"": ""technical""}"
+0,strict_json,14,technical,technical,ok,1,232.6,94,7,0,1,,"{""category"": ""technical""}"
+0,strict_json,15,technical,technical,ok,1,253.2,92,7,0,1,,"{""category"": ""technical""}"
+0,strict_json,16,technical,technical,ok,1,229.7,89,7,0,1,,"{""category"": ""technical""}"
+0,strict_json,17,technical,technical,ok,1,231.2,92,7,0,1,,"{""category"": ""technical""}"
+0,strict_json,18,technical,technical,ok,1,231.4,90,7,0,1,,"{""category"": ""technical""}"
+0,strict_json,19,technical,technical,ok,1,229.9,88,7,0,1,,"{""category"": ""technical""}"
+0,strict_json,20,technical,technical,ok,1,230.4,89,7,0,1,,"{""category"": ""technical""}"
+0,strict_json,21,account,account,ok,1,0.0,91,7,1,1,,"{""category"": ""account""}"
+0,strict_json,22,account,account,ok,1,0.0,91,7,1,1,,"{""category"": ""account""}"
+0,strict_json,23,account,account,ok,1,236.6,92,7,0,1,,"{""category"": ""account""}"
+0,strict_json,24,account,technical,ok,0,231.6,93,7,0,1,,"{""category"": ""technical""}"
+0,strict_json,25,account,account,ok,1,230.8,91,7,0,1,,"{""category"": ""account""}"
+0,strict_json,26,account,account,ok,1,231.1,90,7,0,1,,"{""category"": ""account""}"
+0,strict_json,27,account,technical,ok,0,231.0,90,7,0,1,,"{""category"": ""technical""}"
+0,strict_json,28,account,account,ok,1,230.7,92,7,0,1,,"{""category"": ""account""}"
+0,strict_json,29,account,account,ok,1,234.1,94,7,0,1,,"{""category"": ""account""}"
+0,strict_json,30,account,account,ok,1,231.7,91,7,0,1,,"{""category"": ""account""}"
+0,strict_json,31,other,other,ok,1,0.0,93,7,1,1,,"{""category"": ""other""}"
+0,strict_json,32,other,other,ok,1,0.0,88,7,1,1,,"{""category"": ""other""}"
+0,strict_json,33,other,other,ok,1,231.1,88,7,0,1,,"{""category"": ""other""}"
+0,strict_json,34,other,other,ok,1,231.2,90,7,0,1,,"{""category"": ""other""}"
+0,strict_json,35,other,other,ok,1,230.1,88,7,0,1,,"{""category"": ""other""}"
+0,strict_json,36,other,other,ok,1,231.4,91,7,0,1,,"{""category"": ""other""}"
+0,strict_json,37,other,account,ok,0,233.5,88,7,0,1,,"{""category"": ""account""}"
+0,strict_json,38,other,other,ok,1,277.4,82,7,0,1,,"{""category"": ""other""}"
+0,strict_json,39,other,other,ok,1,229.5,95,7,0,1,,"{""category"": ""other""}"
+0,strict_json,40,other,other,ok,1,231.0,91,7,0,1,,"{""category"": ""other""}"
+1,strict_json,1,billing,billing,ok,1,277.8,97,7,0,1,,"{""category"": ""billing""}"
+1,strict_json,2,billing,billing,ok,1,267.9,94,7,0,1,,"{""category"": ""billing""}"
+1,strict_json,3,billing,billing,ok,1,272.5,92,7,0,1,,"{""category"": ""billing""}"
+1,strict_json,4,billing,billing,ok,1,273.0,94,7,0,1,,"{""category"": ""billing""}"
+1,strict_json,5,billing,billing,ok,1,274.5,91,7,0,1,,"{""category"": ""billing""}"
+1,strict_json,6,billing,account,ok,0,268.5,94,7,0,1,,"{""category"": ""account""}"
+1,strict_json,7,billing,billing,ok,1,262.9,94,7,0,1,,"{""category"": ""billing""}"
+1,strict_json,8,billing,billing,ok,1,255.5,91,7,0,1,,"{""category"": ""billing""}"
+1,strict_json,9,billing,billing,ok,1,252.4,93,7,0,1,,"{""category"": ""billing""}"
+1,strict_json,10,billing,billing,ok,1,249.8,97,7,0,1,,"{""category"": ""billing""}"
+1,strict_json,11,technical,technical,ok,1,250.6,91,7,0,1,,"{""category"": ""technical""}"
+1,strict_json,12,technical,technical,ok,1,251.9,90,7,0,1,,"{""category"": ""technical""}"
+1,strict_json,13,technical,technical,ok,1,260.5,91,7,0,1,,"{""category"": ""technical""}"
+1,strict_json,14,technical,technical,ok,1,250.4,94,7,0,1,,"{""category"": ""technical""}"
+1,strict_json,15,technical,technical,ok,1,251.9,92,7,0,1,,"{""category"": ""technical""}"
+1,strict_json,16,technical,technical,ok,1,256.9,89,7,0,1,,"{""category"": ""technical""}"
+1,strict_json,17,technical,technical,ok,1,262.5,92,7,0,1,,"{""category"": ""technical""}"
+1,strict_json,18,technical,technical,ok,1,262.1,90,7,0,1,,"{""category"": ""technical""}"
+1,strict_json,19,technical,technical,ok,1,258.6,88,7,0,1,,"{""category"": ""technical""}"
+1,strict_json,20,technical,technical,ok,1,259.0,89,7,0,1,,"{""category"": ""technical""}"
+1,strict_json,21,account,account,ok,1,251.6,91,7,0,1,,"{""category"": ""account""}"
+1,strict_json,22,account,account,ok,1,261.1,91,7,0,1,,"{""category"": ""account""}"
+1,strict_json,23,account,account,ok,1,256.5,92,7,0,1,,"{""category"": ""account""}"
+1,strict_json,24,account,technical,ok,0,257.2,93,7,0,1,,"{""category"": ""technical""}"
+1,strict_json,25,account,account,ok,1,262.0,91,7,0,1,,"{""category"": ""account""}"
+1,strict_json,26,account,account,ok,1,258.6,90,7,0,1,,"{""category"": ""account""}"
+1,strict_json,27,account,technical,ok,0,256.2,90,7,0,1,,"{""category"": ""technical""}"
+1,strict_json,28,account,account,ok,1,283.3,92,7,0,1,,"{""category"": ""account""}"
+1,strict_json,29,account,account,ok,1,262.8,94,7,0,1,,"{""category"": ""account""}"
+1,strict_json,30,account,account,ok,1,253.3,91,7,0,1,,"{""category"": ""account""}"
+1,strict_json,31,other,other,ok,1,259.3,93,7,0,1,,"{""category"": ""other""}"
+1,strict_json,32,other,other,ok,1,262.3,88,7,0,1,,"{""category"": ""other""}"
+1,strict_json,33,other,other,ok,1,258.3,88,7,0,1,,"{""category"": ""other""}"
+1,strict_json,34,other,other,ok,1,259.6,90,7,0,1,,"{""category"": ""other""}"
+1,strict_json,35,other,other,ok,1,255.2,88,7,0,1,,"{""category"": ""other""}"
+1,strict_json,36,other,other,ok,1,256.7,91,7,0,1,,"{""category"": ""other""}"
+1,strict_json,37,other,account,ok,0,257.5,88,7,0,1,,"{""category"": ""account""}"
+1,strict_json,38,other,other,ok,1,316.1,82,7,0,1,,"{""category"": ""other""}"
+1,strict_json,39,other,other,ok,1,256.1,95,7,0,1,,"{""category"": ""other""}"
+1,strict_json,40,other,other,ok,1,260.3,91,7,0,1,,"{""category"": ""other""}"
+2,strict_json,1,billing,billing,ok,1,311.5,97,7,0,1,,"{""category"": ""billing""}"
+2,strict_json,2,billing,billing,ok,1,311.9,94,7,0,1,,"{""category"": ""billing""}"
+2,strict_json,3,billing,billing,ok,1,309.7,92,7,0,1,,"{""category"": ""billing""}"
+2,strict_json,4,billing,billing,ok,1,315.0,94,7,0,1,,"{""category"": ""billing""}"
+2,strict_json,5,billing,billing,ok,1,307.2,91,7,0,1,,"{""category"": ""billing""}"
+2,strict_json,6,billing,account,ok,0,279.4,94,7,0,1,,"{""category"": ""account""}"
+2,strict_json,7,billing,billing,ok,1,281.3,94,7,0,1,,"{""category"": ""billing""}"
+2,strict_json,8,billing,billing,ok,1,295.6,91,7,0,1,,"{""category"": ""billing""}"
+2,strict_json,9,billing,billing,ok,1,278.6,93,7,0,1,,"{""category"": ""billing""}"
+2,strict_json,10,billing,billing,ok,1,294.8,97,7,0,1,,"{""category"": ""billing""}"
+2,strict_json,11,technical,technical,ok,1,300.1,91,7,0,1,,"{""category"": ""technical""}"
+2,strict_json,12,technical,technical,ok,1,283.7,90,7,0,1,,"{""category"": ""technical""}"
+2,strict_json,13,technical,technical,ok,1,304.0,91,7,0,1,,"{""category"": ""technical""}"
+2,strict_json,14,technical,technical,ok,1,301.2,94,7,0,1,,"{""category"": ""technical""}"
+2,strict_json,15,technical,technical,ok,1,278.6,92,7,0,1,,"{""category"": ""technical""}"
+2,strict_json,16,technical,technical,ok,1,303.0,89,7,0,1,,"{""category"": ""technical""}"
+2,strict_json,17,technical,technical,ok,1,309.1,92,7,0,1,,"{""category"": ""technical""}"
+2,strict_json,18,technical,technical,ok,1,300.9,90,7,0,1,,"{""category"": ""technical""}"
+2,strict_json,19,technical,technical,ok,1,295.8,88,7,0,1,,"{""category"": ""technical""}"
+2,strict_json,20,technical,technical,ok,1,275.9,89,7,0,1,,"{""category"": ""technical""}"
+2,strict_json,21,account,account,ok,1,301.2,91,7,0,1,,"{""category"": ""account""}"
+2,strict_json,22,account,account,ok,1,302.7,91,7,0,1,,"{""category"": ""account""}"
+2,strict_json,23,account,account,ok,1,286.5,92,7,0,1,,"{""category"": ""account""}"
+2,strict_json,24,account,technical,ok,0,298.4,93,7,0,1,,"{""category"": ""technical""}"
+2,strict_json,25,account,account,ok,1,297.7,91,7,0,1,,"{""category"": ""account""}"
+2,strict_json,26,account,account,ok,1,298.5,90,7,0,1,,"{""category"": ""account""}"
+2,strict_json,27,account,technical,ok,0,285.6,90,7,0,1,,"{""category"": ""technical""}"
+2,strict_json,28,account,account,ok,1,296.9,92,7,0,1,,"{""category"": ""account""}"
+2,strict_json,29,account,account,ok,1,294.6,94,7,0,1,,"{""category"": ""account""}"
+2,strict_json,30,account,account,ok,1,289.0,91,7,0,1,,"{""category"": ""account""}"
+2,strict_json,31,other,other,ok,1,292.3,93,7,0,1,,"{""category"": ""other""}"
+2,strict_json,32,other,other,ok,1,284.3,88,7,0,1,,"{""category"": ""other""}"
+2,strict_json,33,other,other,ok,1,267.2,88,7,0,1,,"{""category"": ""other""}"
+2,strict_json,34,other,other,ok,1,288.6,90,7,0,1,,"{""category"": ""other""}"
+2,strict_json,35,other,other,ok,1,279.8,88,7,0,1,,"{""category"": ""other""}"
+2,strict_json,36,other,other,ok,1,286.0,91,7,0,1,,"{""category"": ""other""}"
+2,strict_json,37,other,account,ok,0,289.6,88,7,0,1,,"{""category"": ""account""}"
+2,strict_json,38,other,other,ok,1,343.2,82,7,0,1,,"{""category"": ""other""}"
+2,strict_json,39,other,other,ok,1,265.5,95,7,0,1,,"{""category"": ""other""}"
+2,strict_json,40,other,other,ok,1,275.4,91,7,0,1,,"{""category"": ""other""}"

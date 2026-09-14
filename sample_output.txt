@@ -1,0 +1,265 @@
+$ python evaluate.py --dry-run --repeats 3
+
+40 items (billing 10, technical 10, account 10, other 10) x 5 strategies x 1 run(s) = 200 calls against mock
+  run 0  zero_shot          acc 0.675
+  run 0  few_shot           acc 0.675
+  run 0  few_shot_instruct  acc 0.675
+  run 0  chain_of_thought   acc 0.675
+  run 0  strict_json        acc 0.675
+
+SUMMARY  (ranked by accuracy, mean latency breaks ties)
+rank strategy          acc    95% CI          sd     macroF1  mean_ms  p95_ms   wrong  halluc  malfm  empty  in_tok   out_tok  
+-------------------------------------------------------------------------------------------------------------------------------
+1    few_shot          0.675  [0.52, 0.80]    0.000  0.769    5        5        3      6       3      1      0        0        
+2    chain_of_thought  0.675  [0.52, 0.80]    0.000  0.769    5        5        3      6       3      1      0        0        
+3    few_shot_instruct 0.675  [0.52, 0.80]    0.000  0.769    5        5        3      6       3      1      0        0        
+4    strict_json       0.675  [0.52, 0.80]    0.000  0.769    5        5        3      6       3      1      0        0        
+5    zero_shot         0.675  [0.52, 0.80]    0.000  0.769    5        5        3      6       3      1      0        0        
+
+Per-class metrics: few_shot
+category    prec    recall  f1      gold_n  pred_n  
+----------------------------------------------------
+billing     1.000   0.600   0.750   10      6       
+technical   0.875   0.700   0.778   10      8       
+account     1.000   0.600   0.750   10      6       
+other       0.800   0.800   0.800   10      10      
+
+Confusion matrix: few_shot  (rows = gold, cols = predicted)
+  gold          billing technical   account     other   INVALID
+  billing             6         1         0         0         3
+  technical           0         7         0         0         3
+  account             0         0         6         2         2
+  other               0         0         0         8         2
+
+Per-class metrics: chain_of_thought
+category    prec    recall  f1      gold_n  pred_n  
+----------------------------------------------------
+billing     1.000   0.600   0.750   10      6       
+technical   0.875   0.700   0.778   10      8       
+account     1.000   0.600   0.750   10      6       
+other       0.800   0.800   0.800   10      10      
+
+Confusion matrix: chain_of_thought  (rows = gold, cols = predicted)
+  gold          billing technical   account     other   INVALID
+  billing             6         1         0         0         3
+  technical           0         7         0         0         3
+  account             0         0         6         2         2
+  other               0         0         0         8         2
+
+Per-class metrics: few_shot_instruct
+category    prec    recall  f1      gold_n  pred_n  
+----------------------------------------------------
+billing     1.000   0.600   0.750   10      6       
+technical   0.875   0.700   0.778   10      8       
+account     1.000   0.600   0.750   10      6       
+other       0.800   0.800   0.800   10      10      
+
+Confusion matrix: few_shot_instruct  (rows = gold, cols = predicted)
+  gold          billing technical   account     other   INVALID
+  billing             6         1         0         0         3
+  technical           0         7         0         0         3
+  account             0         0         6         2         2
+  other               0         0         0         8         2
+
+Per-class metrics: strict_json
+category    prec    recall  f1      gold_n  pred_n  
+----------------------------------------------------
+billing     1.000   0.600   0.750   10      6       
+technical   0.875   0.700   0.778   10      8       
+account     1.000   0.600   0.750   10      6       
+other       0.800   0.800   0.800   10      10      
+
+Confusion matrix: strict_json  (rows = gold, cols = predicted)
+  gold          billing technical   account     other   INVALID
+  billing             6         1         0         0         3
+  technical           0         7         0         0         3
+  account             0         0         6         2         2
+  other               0         0         0         8         2
+
+Per-class metrics: zero_shot
+category    prec    recall  f1      gold_n  pred_n  
+----------------------------------------------------
+billing     1.000   0.600   0.750   10      6       
+technical   0.875   0.700   0.778   10      8       
+account     1.000   0.600   0.750   10      6       
+other       0.800   0.800   0.800   10      10      
+
+Confusion matrix: zero_shot  (rows = gold, cols = predicted)
+  gold          billing technical   account     other   INVALID
+  billing             6         1         0         0         3
+  technical           0         7         0         0         3
+  account             0         0         6         2         2
+  other               0         0         0         8         2
+
+PAIRED COMPARISONS  (exact McNemar on run 0, 40 items)
+strategy A        strategy B        n    A only  B only  discord  p        verdict             
+-----------------------------------------------------------------------------------------------
+zero_shot         few_shot          40   0       0       0        1.0000   not distinguishable 
+zero_shot         few_shot_instruct 40   0       0       0        1.0000   not distinguishable 
+zero_shot         chain_of_thought  40   0       0       0        1.0000   not distinguishable 
+zero_shot         strict_json       40   0       0       0        1.0000   not distinguishable 
+few_shot          few_shot_instruct 40   0       0       0        1.0000   not distinguishable 
+few_shot          chain_of_thought  40   0       0       0        1.0000   not distinguishable 
+few_shot          strict_json       40   0       0       0        1.0000   not distinguishable 
+few_shot_instruct chain_of_thought  40   0       0       0        1.0000   not distinguishable 
+few_shot_instruct strict_json       40   0       0       0        1.0000   not distinguishable 
+chain_of_thought  strict_json       40   0       0       0        1.0000   not distinguishable 
+  'A only' = items A got right and B got wrong. Concordant items are excluded.
+  Below about 6 discordant items no split can reach p < 0.05 at all, so small
+  discordant counts mean the dataset can't separate the strategies.
+
+no cost column: pass --price-in and --price-out (USD per million tokens).
+wrote /Users/shivam_agarwala/Downloads/Evaluator/results.csv
+wrote /Users/shivam_agarwala/Downloads/Evaluator/predictions.csv
+wrote /Users/shivam_agarwala/Downloads/Evaluator/pairwise.csv
+(base) shivam_agarwala@Shivams-MacBook-Air-2 Evaluator % python evaluate.py --list-providers   
+
+Providers. Pick one with --provider, override the model with --model.
+
+  ollama       env OLLAMA_API_KEY       (NOT set)
+               default model: llama3.2
+               Local Ollama, the default. No account, no key, no quota. Run `ollama serve` and `ollama pull llama3.2` first.
+
+  openai       env OPENAI_API_KEY       (NOT set)
+               default model: gpt-4o-mini
+               OpenAI directly. Paid.
+
+  openrouter   env OPENROUTER_API_KEY   (NOT set)
+               default model: meta-llama/llama-3.3-70b-instruct
+               OpenRouter. Some model ids carry a :free suffix.
+
+  huggingface  env HF_TOKEN             (NOT set)
+               default model: openai/gpt-oss-20b
+               Hugging Face Inference Providers router. Monthly credits run out fast.
+
+  custom       --base-url URL --model ID [--api-key-env VAR]
+
+(base) shivam_agarwala@Shivams-MacBook-Air-2 Evaluator % python evaluate.py --dry-run --repeats 3 - sample_output.txt
+usage: evaluate.py [-h] [--dry-run] [--dataset DATASET] [--provider PROVIDER] [--model MODEL] [--base-url BASE_URL] [--api-key-env API_KEY_ENV]
+                   [--list-providers] [--list-models] [--strategies STRATEGIES] [--repeats REPEATS] [--concurrency CONCURRENCY]
+                   [--temperature TEMPERATURE] [--limit LIMIT] [--no-cache] [--cache-dir CACHE_DIR] [--price-in PRICE_IN] [--price-out PRICE_OUT]
+                   [--outdir OUTDIR]
+evaluate.py: error: unrecognized arguments: - sample_output.txt
+(base) shivam_agarwala@Shivams-MacBook-Air-2 Evaluator % python evaluate.py --dry-run --repeats 3                    
+40 items (billing 10, technical 10, account 10, other 10) x 5 strategies x 3 run(s) = 600 calls against mock
+  run 0  zero_shot          acc 0.675
+  run 0  few_shot           acc 0.675
+  run 0  few_shot_instruct  acc 0.675
+  run 0  chain_of_thought   acc 0.675
+  run 0  strict_json        acc 0.675
+  run 1  zero_shot          acc 0.800
+  run 1  few_shot           acc 0.800
+  run 1  few_shot_instruct  acc 0.800
+  run 1  chain_of_thought   acc 0.800
+  run 1  strict_json        acc 0.800
+  run 2  zero_shot          acc 0.775
+  run 2  few_shot           acc 0.775
+  run 2  few_shot_instruct  acc 0.775
+  run 2  chain_of_thought   acc 0.775
+  run 2  strict_json        acc 0.775
+
+SUMMARY  (ranked by accuracy, mean latency breaks ties)
+rank strategy          acc    95% CI          sd     macroF1  mean_ms  p95_ms   wrong  halluc  malfm  empty  in_tok   out_tok  
+-------------------------------------------------------------------------------------------------------------------------------
+1    few_shot          0.750  [0.60, 0.86]    0.066  0.836    5        5        5      14      8      3      0        0        
+2    chain_of_thought  0.750  [0.60, 0.86]    0.066  0.836    5        5        5      14      8      3      0        0        
+3    few_shot_instruct 0.750  [0.60, 0.86]    0.066  0.836    5        5        5      14      8      3      0        0        
+4    zero_shot         0.750  [0.60, 0.86]    0.066  0.836    5        5        5      14      8      3      0        0        
+5    strict_json       0.750  [0.60, 0.86]    0.066  0.836    5        5        5      14      8      3      0        0        
+
+Per-class metrics: few_shot
+category    prec    recall  f1      gold_n  pred_n  
+----------------------------------------------------
+billing     0.955   0.700   0.808   30      22      
+technical   0.957   0.733   0.830   30      23      
+account     0.957   0.733   0.830   30      23      
+other       0.926   0.833   0.877   30      27      
+
+Confusion matrix: few_shot  (rows = gold, cols = predicted)
+  gold          billing technical   account     other   INVALID
+  billing            21         1         0         0         8
+  technical           0        22         1         0         7
+  account             0         0        22         2         6
+  other               1         0         0        25         4
+
+Per-class metrics: chain_of_thought
+category    prec    recall  f1      gold_n  pred_n  
+----------------------------------------------------
+billing     0.955   0.700   0.808   30      22      
+technical   0.957   0.733   0.830   30      23      
+account     0.957   0.733   0.830   30      23      
+other       0.926   0.833   0.877   30      27      
+
+Confusion matrix: chain_of_thought  (rows = gold, cols = predicted)
+  gold          billing technical   account     other   INVALID
+  billing            21         1         0         0         8
+  technical           0        22         1         0         7
+  account             0         0        22         2         6
+  other               1         0         0        25         4
+
+Per-class metrics: few_shot_instruct
+category    prec    recall  f1      gold_n  pred_n  
+----------------------------------------------------
+billing     0.955   0.700   0.808   30      22      
+technical   0.957   0.733   0.830   30      23      
+account     0.957   0.733   0.830   30      23      
+other       0.926   0.833   0.877   30      27      
+
+Confusion matrix: few_shot_instruct  (rows = gold, cols = predicted)
+  gold          billing technical   account     other   INVALID
+  billing            21         1         0         0         8
+  technical           0        22         1         0         7
+  account             0         0        22         2         6
+  other               1         0         0        25         4
+
+Per-class metrics: zero_shot
+category    prec    recall  f1      gold_n  pred_n  
+----------------------------------------------------
+billing     0.955   0.700   0.808   30      22      
+technical   0.957   0.733   0.830   30      23      
+account     0.957   0.733   0.830   30      23      
+other       0.926   0.833   0.877   30      27      
+
+Confusion matrix: zero_shot  (rows = gold, cols = predicted)
+  gold          billing technical   account     other   INVALID
+  billing            21         1         0         0         8
+  technical           0        22         1         0         7
+  account             0         0        22         2         6
+  other               1         0         0        25         4
+
+Per-class metrics: strict_json
+category    prec    recall  f1      gold_n  pred_n  
+----------------------------------------------------
+billing     0.955   0.700   0.808   30      22      
+technical   0.957   0.733   0.830   30      23      
+account     0.957   0.733   0.830   30      23      
+other       0.926   0.833   0.877   30      27      
+
+Confusion matrix: strict_json  (rows = gold, cols = predicted)
+  gold          billing technical   account     other   INVALID
+  billing            21         1         0         0         8
+  technical           0        22         1         0         7
+  account             0         0        22         2         6
+  other               1         0         0        25         4
+
+PAIRED COMPARISONS  (exact McNemar on run 0, 40 items)
+strategy A        strategy B        n    A only  B only  discord  p        verdict             
+-----------------------------------------------------------------------------------------------
+zero_shot         few_shot          40   0       0       0        1.0000   not distinguishable 
+zero_shot         few_shot_instruct 40   0       0       0        1.0000   not distinguishable 
+zero_shot         chain_of_thought  40   0       0       0        1.0000   not distinguishable 
+zero_shot         strict_json       40   0       0       0        1.0000   not distinguishable 
+few_shot          few_shot_instruct 40   0       0       0        1.0000   not distinguishable 
+few_shot          chain_of_thought  40   0       0       0        1.0000   not distinguishable 
+few_shot          strict_json       40   0       0       0        1.0000   not distinguishable 
+few_shot_instruct chain_of_thought  40   0       0       0        1.0000   not distinguishable 
+few_shot_instruct strict_json       40   0       0       0        1.0000   not distinguishable 
+chain_of_thought  strict_json       40   0       0       0        1.0000   not distinguishable 
+  'A only' = items A got right and B got wrong. Concordant items are excluded.
+  Below about 6 discordant items no split can reach p < 0.05 at all, so small
+  discordant counts mean the dataset can't separate the strategies.
+
+no cost column: pass --price-in and --price-out (USD per million tokens).
+wrote /Users/shivam_agarwala/Downloads/Evaluator/results.csv
+wrote /Users/shivam_agarwala/Downloads/Evaluator/predictions.csv
+wrote /Users/shivam_agarwala/Downloads/Evaluator/pairwise.csv

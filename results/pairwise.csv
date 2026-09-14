@@ -1,0 +1,11 @@
+strategy_a,strategy_b,n_compared,a_right_b_wrong,b_right_a_wrong,discordant,p_value,excluded_failed
+zero_shot,few_shot,40,12,5,17,0.1435,0
+zero_shot,few_shot_instruct,40,0,6,6,0.0312,0
+zero_shot,chain_of_thought,40,0,9,9,0.0039,0
+zero_shot,strict_json,40,1,8,9,0.0391,0
+few_shot,few_shot_instruct,40,2,15,17,0.0023,0
+few_shot,chain_of_thought,40,1,17,18,0.0001,0
+few_shot,strict_json,40,2,16,18,0.0013,0
+few_shot_instruct,chain_of_thought,40,0,3,3,0.25,0
+few_shot_instruct,strict_json,40,2,3,5,1.0,0
+chain_of_thought,strict_json,40,4,2,6,0.6875,0
